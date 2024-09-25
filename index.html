@@ -17,10 +17,13 @@
     <body>
 
 
-      <div class="" id="desctop"></div>
-      <div class="" id="mobile"></div>
+      <div id="splash-screen">
+        <img src="./public/assets/icons/mie-ride.jpg" width="100%" height="100%" alt="mei">    
+      </div>
+
+       
       
-        <header class="w-100">
+        <header class="w-100" id="header" style="display: none;">
             <div class="main-header p-0 m-0">
                 <div class="top-band py-3 w-100"></div>
                 <div class='main_navbar p-0 m-0'>
@@ -76,7 +79,7 @@
         </header>  
 
          <!-- banner section -->
-          <section class="mie_ride_banner">
+          <section class="mie_ride_banner"  id="mie_ride_banner" style="display: none;">
             <div class="container-fluid p-0 m-0 banner_main" style="min-height:200px">
                 <div class="row p-0 m-0">
              <div class="col-md-11 mx-auto p-0 m-0">
@@ -94,7 +97,7 @@
 
         
 
-        <main>
+        <main id="main" style="display: none;">
 
             <section  id="about-us" class="mie_ride_about">
                 <div class="row p-0 m-0">
@@ -997,12 +1000,24 @@
         <footer>
             <!-- place footer here -->
         </footer>
+    
         <!-- Bootstrap JavaScript Libraries -->
         <script>
           function toggleDescription(section) {
             console.log(section)
             section.classList.toggle('activeservice');
           }
+
+          setTimeout(function() {
+    document.getElementById('splash-screen').classList.add('hidden'); // Add fade-out effect
+    setTimeout(function() {
+        document.getElementById('splash-screen').style.display = 'none'; // Hide after fading out
+        document.getElementById('mie_ride_banner').style.display = 'block'; // Show the main content
+        document.getElementById('mie_ride_banner').style.display = 'block'; // Show the main content
+        document.getElementById('main').style.display = 'block'; // Show the main content
+    }, 1000); // Time for the fade-out transition to complete
+}, 3000);
+
         </script>
          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
