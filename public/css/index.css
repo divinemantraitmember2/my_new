@@ -32,11 +32,15 @@
   }
   
 
-
+  .logo_section{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+  }
 
   .logo_section img{
-    height: 50px;
-    margin-top: 5px;
+    height: 40px;
+    margin-top: 8px;
   }
 .top-band{
     background-color: #1A2B48;
@@ -46,8 +50,6 @@
 
 .main_nanbar{
     background-color: #f9f9f9;
-
-
 }
 .navbar ul li{
   margin: 0px 10px;
