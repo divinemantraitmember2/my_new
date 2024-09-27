@@ -1846,16 +1846,16 @@ main .mie_ride_download .botton_layer img{
 @media screen and (max-width:991px) {
   main .mie_ride_download .botton_layer_2{
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 10px;
   
   }
   main .mie_ride_download .botton_layer{
      padding: 20px;
-    margin-top: 40px;
+    margin-top: 10px;
   
   }
   main .mie_ride_download .right_main_download{
-    margin-top: 120px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
   }
