@@ -37,6 +37,7 @@ if(window.innerWidth > 768){
             <button type="button" data-bs-target="#BannerIndicators" data-bs-slide-to="2" class="rounded-1 border-0 p-0 m-0" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#BannerIndicators" data-bs-slide-to="3" class="rounded-1 border-0 p-0 m-0" aria-label="Slide 3"></button>
             <button type="button" data-bs-target="#BannerIndicators" data-bs-slide-to="4" class="rounded-1 border-0 p-0 m-0" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#BannerIndicators" data-bs-slide-to="5" class="rounded-1 border-0 p-0 m-0" aria-label="Slide 5"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item destop_banner active " id="divice-desctop">
@@ -53,6 +54,9 @@ if(window.innerWidth > 768){
             </div>
             <div class="carousel-item destop_banner ">
               <img src="./public/assets/banners/check5.png" class="d-block w-100" alt="Third slide de">
+            </div>
+            <div class="carousel-item destop_banner ">
+              <img src="./public/assets/banners/check6.png" class="d-block w-100" alt="Third slide de">
             </div>
           </div>
 
@@ -73,6 +77,7 @@ if(window.innerWidth <= 768){
                <button type="button" class="rounded-1 border-0 p-0 m-0" data-bs-target="#BannerIndicators" data-bs-slide-to="2" aria-label="Slide 2"></button>
                <button type="button" class="rounded-1 border-0 p-0 m-0" data-bs-target="#BannerIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
                <button type="button" class="rounded-1 border-0 p-0 m-0" data-bs-target="#BannerIndicators" data-bs-slide-to="4" aria-label="Slide 4"></button>
+               <button type="button" class="rounded-1 border-0 p-0 m-0" data-bs-target="#BannerIndicators" data-bs-slide-to="5" aria-label="Slide 5"></button>
              </div>
            
              <div class="carousel-inner " >
@@ -92,6 +97,9 @@ if(window.innerWidth <= 768){
 
                 <div class="carousel-item mobile_banner">
                  <img src="./public/assets/banners/phone5.png" class="d-block w-100" alt="Third slide m">
+               </div>
+                <div class="carousel-item mobile_banner">
+                 <img src="./public/assets/banners/phone6.png" class="d-block w-100" alt="Third slide m">
                </div>
 
              </div>
