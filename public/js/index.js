@@ -32,11 +32,11 @@ function ActiveBanner(){
 let BannerIndicators=document.getElementById('BannerIndicators');
 if(window.innerWidth > 768){
  BannerIndicators.innerHTML =`<div class="carousel-indicators">
-            <button type="button" data-bs-target="#BannerIndicators" data-bs-slide-to="0" class="active" aria-current="true" id="first_btn" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#BannerIndicators" data-bs-slide-to="1" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#BannerIndicators" data-bs-slide-to="2" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#BannerIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#BannerIndicators" data-bs-slide-to="4" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#BannerIndicators" data-bs-slide-to="0" class="active rounded-1 border-0 p-0 m-0" aria-current="true" id="first_btn" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#BannerIndicators" data-bs-slide-to="1" class="rounded-1 border-0 p-0 m-0" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#BannerIndicators" data-bs-slide-to="2" class="rounded-1 border-0 p-0 m-0" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#BannerIndicators" data-bs-slide-to="3" class="rounded-1 border-0 p-0 m-0" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#BannerIndicators" data-bs-slide-to="4" class="rounded-1 border-0 p-0 m-0" aria-label="Slide 4"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item destop_banner active " id="divice-desctop">
@@ -68,11 +68,11 @@ if(window.innerWidth > 768){
 
 if(window.innerWidth <= 768){
     BannerIndicators.innerHTML =`<div class="carousel-indicators">
-               <button type="button" data-bs-target="#BannerIndicators" data-bs-slide-to="0" class="active" aria-current="true" id="first_btn" aria-label="Slide 1"></button>
-               <button type="button" data-bs-target="#BannerIndicators" data-bs-slide-to="1" aria-label="Slide 1"></button>
-               <button type="button" data-bs-target="#BannerIndicators" data-bs-slide-to="2" aria-label="Slide 2"></button>
-               <button type="button" data-bs-target="#BannerIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
-               <button type="button" data-bs-target="#BannerIndicators" data-bs-slide-to="4" aria-label="Slide 4"></button>
+               <button type="button" class="rounded-1 border-0 p-0 m-0 active" data-bs-target="#BannerIndicators" data-bs-slide-to="0"  aria-current="true" id="first_btn" aria-label="Slide 1"></button>
+               <button type="button" class="rounded-1 border-0 p-0 m-0" data-bs-target="#BannerIndicators" data-bs-slide-to="1" aria-label="Slide 1"></button>
+               <button type="button" class="rounded-1 border-0 p-0 m-0" data-bs-target="#BannerIndicators" data-bs-slide-to="2" aria-label="Slide 2"></button>
+               <button type="button" class="rounded-1 border-0 p-0 m-0" data-bs-target="#BannerIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+               <button type="button" class="rounded-1 border-0 p-0 m-0" data-bs-target="#BannerIndicators" data-bs-slide-to="4" aria-label="Slide 4"></button>
              </div>
            
              <div class="carousel-inner " >
