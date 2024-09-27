@@ -34,7 +34,7 @@
 
   .logo_section{
     display: flex;
-    justify-content:start;
+    justify-content:space-between;
     align-items: center;
   }
 
@@ -45,7 +45,7 @@
   .logo_section span{
   margin-top: 10px;
   letter-spacing: 1px;
-  font-weight: bold;
+  font-weight: 500;
   color: #000;
   text-transform: uppercase;
   }
