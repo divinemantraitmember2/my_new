@@ -1862,14 +1862,17 @@ main .mie_ride_download .right_main_download .card_container_right p {
 
 @media screen and (max-width:991px) {
   .main_banner {
-    padding-top: 50px;
-    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 70px;
 }
   .logo_section{
     padding: 5px 0px;
   }
   .logo_section img {
     margin-top: 0px;
+}
+.banner_main #BannerIndicators .carousel-indicators {
+  padding: 0px 10px;
 }
   main .mie_ride_service .main_title_line p {
       margin-top: 20px;
