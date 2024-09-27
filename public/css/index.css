@@ -1854,6 +1854,9 @@ main .mie_ride_download .botton_layer img{
     margin-top: 10px;
   
   }
+  main .mie_ride_download {
+    padding: 0px 0px;
+}
   main .mie_ride_download .right_main_download{
     margin-top: 10px;
     display: flex;
