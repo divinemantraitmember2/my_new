@@ -128,8 +128,8 @@ background: linear-gradient(0deg, #434650 0%, #212022 50%);
    main .mie_ride_about{
     background-color: #f9f9f9;
     min-height: 200px;
-    padding-top: 60px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-bottom: 60px;
     }
 
     main .mie_ride_about p{
@@ -165,7 +165,7 @@ background: linear-gradient(0deg, #434650 0%, #212022 50%);
     }
 
     main .mie_ride_about_desc .mie_ride_about_desc_text p{
-    padding: 10px 20px;
+    padding: 20px;
     font-size: 18px;
     letter-spacing: 2px;
     text-align: center;
@@ -1197,6 +1197,14 @@ main .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_6
      
   }
 
+  main .mie_ride_benifits .benifits_row_one .benifits_row_one_header{
+    font-size: 18px;
+    padding: 10px;
+  }
+  main .mie_ride_benifits .benifits_row_one_header1{
+    font-size: 18px;
+    padding: 10px;
+  }
 
   main .mie_ride_benifits .benifits_row_one .user_text_section{
     min-height: 200px;
@@ -1815,7 +1823,26 @@ main .mie_ride_download .right_main_download .card_container_right p {
   font-size: 18px;
   color: #fff;
 }
+main .mie_ride_download .botton_layer_2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
 
+}
+main .mie_ride_download .botton_layer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+
+}
+main .mie_ride_download .botton_layer_2 img{
+  opacity: 0.3
+}
+main .mie_ride_download .botton_layer img{
+  opacity: 0.3
+}
 @media screen and (max-width:991px) {
   main .mie_ride_download .right_main_download{
     margin-top: 120px;
