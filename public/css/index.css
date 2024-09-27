@@ -1597,7 +1597,7 @@ text-transform: uppercase;
 
 main .mie_ride_download{
   background: linear-gradient(0deg, rgb(100, 102, 105) 30%, rgba(30,31,32,1) 100%);
- padding: 70px 0px;
+ padding: 40px 0px;
 
 
 }
@@ -1631,8 +1631,8 @@ main .mie_ride_download .mie_ride_download_title p{
    padding: 10px 0px;
 }
 main .mie_ride_download  .main_downloals{
-padding-top: 10px;
-padding-bottom: 60px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 
