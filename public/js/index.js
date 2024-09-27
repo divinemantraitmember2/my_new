@@ -124,70 +124,7 @@ window.addEventListener('resize', function() {
 
 
 
-// Get references to sections and nav items
-const sections = document.querySelectorAll('section');
-const navItems = document.querySelectorAll('nav-item');
-
-// Function to add 'active' class based on scroll position
-window.addEventListener('scroll', () => {
-    
-    let currentSection = '';
-    // Loop through sections to check which one is in the viewport
-    sections.forEach(section => {
-        const sectionTop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
-
-        if (scrollY >= sectionTop - sectionHeight / 3) {
-            currentSection = section.getAttribute('id');
-        }
-    });
-    // Remove active class from all nav items
-    navItems.forEach(navItem => {
-        navItem.classList.remove('active');
-        if (navItem.getAttribute('href') === `#${currentSection}`) {
-            navItem.classList.add('active');
-        }
-    });
-});
 
 
 
-function checkDeviceSize() {
-    const myDiv = document.getElementById('divice-phone');
-    const divicedesctop = document.getElementById('divice-desctop');
-    if (window.innerWidth <= 768) {
-        myDiv && myDiv.classList.add('active');
-        divicedesctop && divicedesctop.classList.remove('active');
-    } else {
-        myDiv && myDiv.classList.remove('active');
-        divicedesctop && divicedesctop.classList.add('active');
-    }
-}
 
-// Run the function when the page loads
-window.onload = checkDeviceSize;
-
-// Run the function when the window is resized
-window.onresize = checkDeviceSize;
-
-
-
-// Get the button:
-let mybutton = document.getElementById("service_myBtn");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
