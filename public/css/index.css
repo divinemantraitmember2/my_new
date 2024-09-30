@@ -140,17 +140,17 @@ justify-content: center;
 } */
 
 .mie_ride_banner{
+  background: linear-gradient(0deg, #434650 0%, #212022 50%);
   height: 100vh;
 }
-.main_banner{
-  padding-top: 40px;
-  padding-bottom: 50px;
-}
-.banner_main{
-background: linear-gradient(0deg, #434650 0%, #212022 50%);
- }
 
- .banner_main #BannerIndicators .carousel-indicators{
+.main_banner{
+  padding-top: 60px;
+  /* padding-bottom: 50px; */
+}
+
+
+.banner_main #BannerIndicators .carousel-indicators{
  justify-content: space-between;
  margin-right:0% !important;
  margin-bottom: -1.2rem !important;
