@@ -60,14 +60,7 @@ if(window.innerWidth > 768){
             </div>
           </div>
 
-          <button class="carousel-control-prev" type="button" data-bs-target="#BannerIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#BannerIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>`;
+         `;
 }
 
 if(window.innerWidth <= 768){
@@ -104,14 +97,7 @@ if(window.innerWidth <= 768){
 
              </div>
    
-             <button class="carousel-control-prev" type="button" data-bs-target="#BannerIndicators" data-bs-slide="prev">
-               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-               <span class="visually-hidden">Previous</span>
-             </button>
-             <button class="carousel-control-next" type="button" data-bs-target="#BannerIndicators" data-bs-slide="next">
-               <span class="carousel-control-next-icon" aria-hidden="true"></span>
-               <span class="visually-hidden">Next</span>
-             </button>`;
+             `;
    }
 
 
@@ -131,7 +117,25 @@ window.addEventListener('resize', function() {
 
 
 
+// Get the button:
+let mybutton = document.getElementById("service_myBtn");
 
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
 
 
 
