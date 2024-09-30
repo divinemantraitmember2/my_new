@@ -68,6 +68,44 @@ justify-content: center;
     text-align: center;
 
   }
+  .logo_section{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+
+  .logo_section img{
+    height: 40px;
+    margin-top: 8px;
+  }
+  .logo_section span{
+    margin-top: 10px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #000;
+  text-transform: uppercase;
+  }
+.top-band{
+    background-color: #1A2B48;
+ /* background-color:#91b5e5 ; */
+ padding: 0px 0px;
+}
+
+.main_nanbar{
+    background-color: #f9f9f9;
+}
+.navbar ul li{
+  margin: 0px 10px;
+}
+.navbar ul li a{
+    color: #212022;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 10px;
+    text-decoration: none;
+    font-style: normal;
+}
 
 /* .navbar ul li:hover{
   background: linear-gradient(110deg, #fff, 45%, #f9e4a4, 55%, #fff);
@@ -101,65 +139,14 @@ justify-content: center;
   height: 50px;
 } */
 
-
-.mie_ride_banner{
-  padding-top:10px ;
-  height: 100vh;
-  background: linear-gradient(0deg, #434650 0%, #212022 50%); 
-}
-/* .main_banner{
+.main_banner{
   padding-top: 40px;
   padding-bottom: 50px;
 }
 .banner_main{
 background: linear-gradient(0deg, #434650 0%, #212022 50%);
- } */
+ }
 
- .mie_ride_banner header{
-  background-color: #f9f9f9;
-  padding: 0px;
-  margin:0px;
-}
- .logo_section{
-  display: flex;
-  justify-content:space-between;
-  align-items: center;
-}
-
-.logo_section img{
-  height: 30px;
-  margin-top: 8px;
-}
-.logo_section span{
- margin-top: 10px;
-letter-spacing: 1px;
-font-weight: 500;
-color: #000;
-text-transform: uppercase;
-}
-/* .top-band{
-  background-color: #1A2B48;
-padding: 0px 0px;
-} */
-
-
-.navbar ul li{
-margin: 0px 10px;
-}
-.navbar ul li a{
-  color: #212022;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 23px;
-  padding: 10px;
-  text-decoration: none;
-  font-style: normal;
-}
-
-.main_banner{
-  padding-top: 40px;
-  padding-bottom: 50px;
-}
  .banner_main #BannerIndicators .carousel-indicators{
  justify-content: space-between;
  margin-right:0% !important;
