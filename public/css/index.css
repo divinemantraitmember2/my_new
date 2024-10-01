@@ -2042,6 +2042,9 @@ margin-top: 30px;
 main .mie_ride_features .mie_ride_features_desc {
   padding: 0px 0px;
 }
+main .mie_ride_features .notebook2 ul li{
+  line-height: 25px;
+}
 .mie_ride_advertise .reserve_text{
  font-size: 11px;
 }
@@ -2059,5 +2062,9 @@ margin-top: -30px;
 }
 main .mie_ride_download .mie_ride_download_title {
   margin-top: 30px;
+}
+
+.mie_ride_contact .contact-form p {
+  font-size: 13px;
 }
 }
