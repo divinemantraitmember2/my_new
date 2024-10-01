@@ -2045,6 +2045,11 @@ main .mie_ride_features .mie_ride_features_desc {
 main .mie_ride_features .notebook2 ul li{
   line-height: 25px;
 }
+main .mie_ride_features .notebook2 ul {
+  width: 70%;
+  margin: 10px auto;
+  padding-top: 20px;
+}
 .mie_ride_advertise .reserve_text{
  font-size: 11px;
 }
