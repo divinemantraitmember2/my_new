@@ -120,9 +120,13 @@ justify-content: center;
   padding-top: 40px;
   padding-bottom: 50px;
 }
-.banner_main{
-background: linear-gradient(0deg, #434650 0%, #212022 50%);
- }
+.mie_ride_banner{
+  background: linear-gradient(0deg, #4f515a 0%, #212022 50%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
  .banner_main #BannerIndicators .carousel-indicators{
  justify-content: space-between;
@@ -143,7 +147,7 @@ background: linear-gradient(0deg, #434650 0%, #212022 50%);
     background-color: #f9f9f9;
     min-height: 200px;
     padding-top: 60px;
-    /* height: 100vh; */
+    height: 100vh;
     padding-bottom: 40px;
     }
 
@@ -194,6 +198,7 @@ background: linear-gradient(0deg, #434650 0%, #212022 50%);
 
 
   @media screen and (max-width:991px) {
+    
     main .mie_ride_about{ 
       padding-top: 30px;
       padding-bottom: 40px;
@@ -1986,7 +1991,7 @@ main .mie_ride_download .botton_layer img{
 
 @media screen and (max-width:991px) {
   .main_banner {
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 40px;
 }
   .logo_section{
