@@ -137,6 +137,6 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-
-
-
+    document.getElementById('toggleButton').addEventListener('click', function() {
+        document.getElementById('header').scrollIntoView({ behavior: 'smooth' });
+    });
