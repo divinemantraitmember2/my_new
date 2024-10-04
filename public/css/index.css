@@ -145,9 +145,8 @@ justify-content: center;
    
    main .mie_ride_about{
     background-color: #f9f9f9;
-    min-height: 200px;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     }
 
     
@@ -175,13 +174,13 @@ justify-content: center;
     }
 
     main .mie_ride_about_desc{
-      margin-top: 18px;
+      margin-top: 20px;
       background-color: #ffc61d;
     }
 
     main .mie_ride_about_desc .mie_ride_about_desc_text p{
     padding: 20px;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 2px;
     text-align: center;
     line-height: 30px;
