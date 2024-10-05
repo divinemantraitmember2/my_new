@@ -62,7 +62,7 @@ justify-content: center;
   text-transform: uppercase;
   }
 .top-band{
-    background-color: #393a3f;
+    background-color:rgba(71,75,85,0.99608);
  /* background-color:#91b5e5 ; */
  padding: 0px 0px;
 }
@@ -107,15 +107,22 @@ justify-content: center;
   padding-bottom: 50px;
   
 }
+
+
 .mie_ride_banner{
  
-  height: 90vh;
+  height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(30,31,32);
-background: linear-gradient(0deg, rgba(30,31,32,1) 50%, rgb(50, 51, 52) 100%);
+  background-image: -moz-linear-gradient( -89deg, rgba(71,75,85,0.99608) 0%, rgb(71,75,85) 0%, rgb(57,60,67) 40%, rgb(22,22,22) 100%);
+    background-image: -webkit-linear-gradient( -89deg, rgba(71,75,85,0.99608) 0%, rgb(71,75,85) 0%, rgb(57,60,67) 40%, rgb(22,22,22) 100%);
+    background-image: -ms-linear-gradient( -89deg, rgba(71,75,85,0.99608) 0%, rgb(71,75,85) 0%, rgb(57,60,67) 40%, rgb(22,22,22) 100%);
+
+  
 }
+
+
 
  .banner_main #BannerIndicators .carousel-indicators{
  justify-content: space-between;
@@ -164,7 +171,7 @@ background: linear-gradient(0deg, rgba(30,31,32,1) 50%, rgb(50, 51, 52) 100%);
 
     main .mie_ride_about_desc{
       margin-top: 20px;
-      background-color: #ffc61d;
+      background-color: rgb(255, 198, 29);
     }
 
     main .mie_ride_about_desc .mie_ride_about_desc_text p{
@@ -244,8 +251,10 @@ background: linear-gradient(0deg, rgba(30,31,32,1) 50%, rgb(50, 51, 52) 100%);
 
       main .mie_ride_features{
         padding: 40px 0px;
-        background: rgb(30,31,32);
-        background: linear-gradient(0deg, rgb(72, 75, 79) 50%,rgba(30,31,32,1) 100%);
+        background-image: -moz-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
+        background-image: -webkit-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
+        background-image: -ms-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
+      
       }
 
       main .mie_ride_features .main_title_line h4{
@@ -309,7 +318,7 @@ background: linear-gradient(0deg, rgba(30,31,32,1) 50%, rgb(50, 51, 52) 100%);
       }
       
       main .mie_ride_features .notebook2 .third {
-        color: #ffc61d;
+        color: rgb(255, 198, 29);
       }
       
       /* Add a custom bullet point for all list items */
@@ -487,8 +496,9 @@ background: linear-gradient(0deg, rgba(30,31,32,1) 50%, rgb(50, 51, 52) 100%);
 
   main .mie_ride_service{
     padding: 40px 0px;
-    background: rgb(30,31,32);
-        background: linear-gradient(0deg, rgb(72, 75, 79) 50%,rgba(30,31,32,1) 100%);
+    background-image: -moz-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
+  background-image: -webkit-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
+  background-image: -ms-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
 
   }
 
@@ -632,7 +642,7 @@ main .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_2
 }
 
 main .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_2 .mie_ride_service_left_2 .Sharing {
-  background-color: #ffc61d;
+  background-color: rgb(255, 198, 29);
   position: relative;
   margin-top: 83px;
     padding: 20px 0px;
@@ -1253,7 +1263,7 @@ main .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_6
     font-size: 30px;
     letter-spacing: 2px;
     text-align: center;
-    background-color: #ffc61d;
+    background-color: rgb(255, 198, 29);
     
    }
 
@@ -1354,7 +1364,7 @@ main .mie_ride_benifits .benifits_row_one  .benifits_row_colum_up_2{
 
 
 main .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver {
-  background-color: #ffc61d;
+  background-color: rgb(255, 198, 29);
   /* min-height: 200px; */
   width: 100%;
   box-shadow: 0px 5px 6px 2px rgba(0,0,0,0.1); 
@@ -1554,7 +1564,7 @@ main .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver .number_ico
 
 .mie_ride_advertise .iphone_details .iphone_details_below{
   position: relative;
- background-color: #ffc61d;
+ background-color: rgb(255, 198, 29);
  height: 160px;
  width: 100%;
  z-index: 1;
@@ -1590,7 +1600,7 @@ main .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver .number_ico
 
 .mie_ride_advertise .left_text_box .up_box{
   position: relative;
-  background-color: #ffc61d;
+  background-color: rgb(255, 198, 29);
   z-index: 2;
   border-radius: 10px;
   height: 250px;
@@ -1637,7 +1647,7 @@ font-weight:bold;
 }
 .mie_ride_advertise .iphone_details .text_up p{
   padding-top: 5px;
-  color: #ffc61d;
+  color: rgb(255, 198, 29);
   margin-top: 10px;
   }
 .mie_ride_advertise .iphone_details .text_up{
@@ -1686,7 +1696,7 @@ font-weight:bold;
   }
   .mie_ride_advertise .iphone_details .text_up p{
     padding-top: 2px;
-    color: #ffc61d;
+    color: rgb(255, 198, 29);
     font-size: 12px;
     }
     .mie_ride_advertise .left_text_box .down_box{
@@ -1699,8 +1709,10 @@ font-weight:bold;
 
 
 main .mie_ride_download{
-  background: rgb(30,31,32);
-        background: linear-gradient(0deg, rgb(72, 75, 79) 50%,rgba(30,31,32,1) 100%);
+  background-image: -moz-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
+  background-image: -webkit-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
+  background-image: -ms-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
+
  padding: 40px 0px;
 }
 
