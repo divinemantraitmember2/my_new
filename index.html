@@ -19,7 +19,7 @@
       <div id="splash-screen"  class="splash_screen">
         <div class="row">
           <div class="col-md-10 mx-auto">
-            <div class="main_splash_screen">
+            <div class="main_splash_screen swipe-content" id="swipe-content">
               <div class="">
                 <div class="miefinal">
                   <img src="./public/assets/icons/miefinal.png" class="img-fluid" alt="find">
@@ -130,7 +130,7 @@
 
         <main id="main" style="display: none;">
 
-            <section  id="about-us" class="mie_ride_about">
+            <section  id="about-us" class="mie_ride_about mb-3 w-100">
                 <div class="row p-0 m-0">
                     <div class="col-md-11 mx-auto">
                         <div class="text-center main_title_line">
@@ -163,7 +163,7 @@
                
               </section>
         
-              <section  id="services" class="mie_ride_service">
+              <section  id="services" class="mie_ride_service mb-3 w-100">
                 <div class="container-fluid">
                   <div class="row">
                     <div class="col-md-11 mx-auto">
@@ -327,7 +327,7 @@
 
              
 
-              <section  id="benifits" class="mie_ride_benifits mb-3">
+              <section  id="benifits" class="mie_ride_benifits  w-100 mb-3">
                 <div class="row p-0 m-0">
                  <div class="col-md-11 mx-auto ">
                    <div class="mie_ride_benifits_title">
@@ -459,7 +459,7 @@
                      <div class="row">
                        <div class="col-lg-2 d-none d-lg-block">
                          <div class="driver_text_section">
-                           <img src="./public/assets/icons/driver.png" class="img-fluid" alt="driver">
+                           <img src="./public/assets/icons/driver1.png" class="img-fluid" alt="driver">
                          </div>
                        </div>
                      <div class="col-md-10">
@@ -1038,10 +1038,10 @@
                                   </div>
                                   <div class="col-md-12">
                                     <div class="mb-3 form_btn">
-                                      <div class="Send_Message" >
-                                     <button type="button" class="btn Send_Message_btn rounded-0">Send Message</button>
+                                      <div class="Send_Message d-flex justify-content-center w-100 " >
+                                     <button type="button" class="btn Send_Message_btn  rounded-0">Send Message</button>
                                       </div>
-                                      <div class="OR">
+                                      <!-- <div class="OR">
                                         <span >OR</span>
                                         </div>
                                          
@@ -1052,7 +1052,7 @@
                                             Start Live Chart
                                           </a>
                                           </button>
-                                      </div>
+                                      </div> -->
                                     </div>
                                   </div>
                                 </div>
@@ -1077,52 +1077,73 @@
               
         </main>
 
-        <script>
-          // Variables to store the starting and ending touch positions
-          let startX, startY, endX, endY;
-  
-          const swipeArea = document.getElementById('splash-screen');
-          let header=document.getElementById("header");
+        
+
+<script>
+  let startX = 0;
+  let currentX = 0;
+  let isSwiping = false;
+
+   let header=document.getElementById("header");
      let mie_ride_banner=document.getElementById("mie_ride_banner");
      let main=document.getElementById("main");
-  
-          // Detect touchstart event (finger touches the screen)
-          swipeArea.addEventListener('touchstart', function(e) {
-              const touch = e.touches[0]; // Capture the first touch point
-              startX = touch.clientX; // Store the starting X coordinate
-              startY = touch.clientY; // Store the starting Y coordinate
-          });
-  
-          // Detect touchmove event (finger moves on the screen)
-          swipeArea.addEventListener('touchmove', function(e) {
-              const touch = e.touches[0];
-              endX = touch.clientX; // Continuously update the current X coordinate
-              endY = touch.clientY; // Continuously update the current Y coordinate
-          });
-  
-          // Detect touchend event (finger leaves the screen)
-          swipeArea.addEventListener('touchend', function() {
-              const diffX = endX - startX; // Calculate horizontal distance swiped
-              const diffY = endY - startY; // Calculate vertical distance swiped
-  
-              // Horizontal swipe: check if horizontal swipe distance is greater than vertical and has significant distance
-              if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > 50) {
-                  if (diffX > 0) {
-                      // Right swipe
-                      swipeArea.style.display="none";
+  const swipeArea = document.getElementById('splash-screen');
+  const swipeContent = document.getElementById('swipe-content');
+
+  // Detect touchstart event (finger touches the screen)
+  swipeArea.addEventListener('touchstart', function(e) {
+      const touch = e.touches[0]; 
+      startX = touch.clientX;  // Starting X position
+      isSwiping = true;        // Set swiping to true
+  });
+
+  // Detect touchmove event (finger moves on the screen)
+  swipeArea.addEventListener('touchmove', function(e) {
+      if (!isSwiping) return; // Only track if swiping
+      const touch = e.touches[0];
+      currentX = touch.clientX; // Current X position
+
+      // Calculate the difference in X position and apply translation to the content
+      const deltaX = currentX - startX;
+
+      // Move the swipe content in real time with the touch
+      swipeContent.style.transform = `translateX(${deltaX}px)`;
+  });
+
+  // Detect touchend event (finger leaves the screen)
+  swipeArea.addEventListener('touchend', function() {
+      const deltaX = currentX - startX;
+
+      if (Math.abs(deltaX) > 50) {
+          if (deltaX > 0) {
+            swipeArea.style.display="none";
+          header.style.display="block";
+          mie_ride_banner.style.display="block";
+          main.style.display="block";    
+          } else {
+            swipeArea.style.display="none";
           header.style.display="block";
           mie_ride_banner.style.display="block";
           main.style.display="block";
-                  } else {
-                      // Left swipe
-                      swipeArea.style.display="none";
-          header.style.display="block";
-          mie_ride_banner.style.display="block";
-          main.style.display="block";
-                  }
-              }
-          });
-      </script>
+          }
+      }
+
+      // Reset the swipe content position smoothly
+      swipeContent.style.transition = 'transform 0.3s ease-in-out';
+      swipeContent.style.transform = 'translateX(0)'; // Reset to original position
+
+      // Reset the swipe state
+      isSwiping = false;
+  });
+
+  // Detect touchcancel (when touch is interrupted)
+  swipeArea.addEventListener('touchcancel', function() {
+      // Reset content position if touch is canceled
+      swipeContent.style.transform = 'translateX(0)';
+      isSwiping = false;
+  });
+</script>
+
 
         <script>
           function toggleDescription(section) {
