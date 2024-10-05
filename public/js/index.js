@@ -3,7 +3,6 @@
 let navItem=document.getElementsByClassName("nav-item");
 if(navItem !=null&& navItem.length>0){
     for(let i=0;i<navItem.length;i++){
-        console.log(navItem[i])
         navItem[i].addEventListener("click",(event)=>{
         event.preventDefault()
        let sectionId= navItem[i].getAttribute("data-title");
@@ -133,9 +132,9 @@ function scrollFunction() {
 
 
 
-     let header=document.getElementById("header");
-     let mie_ride_banner=document.getElementById("mie_ride_banner");
-     let main=document.getElementById("main");
+    //  let header=document.getElementById("header");
+    //  let mie_ride_banner=document.getElementById("mie_ride_banner");
+    //  let main=document.getElementById("main");
      let splash_screen=document.getElementById("splash-screen");
     document.getElementById('toggleButton').addEventListener('click', function() {
         setTimeout(() =>{
