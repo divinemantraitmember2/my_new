@@ -117,18 +117,18 @@ window.addEventListener('resize', function() {
 
 
 // Get the button:
-let mybutton = document.getElementById("service_myBtn");
+// let mybutton = document.getElementById("service_myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+// window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
+// function scrollFunction() {
+//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//     mybutton.style.display = "block";
+//   } else {
+//     mybutton.style.display = "none";
+//   }
+// }
 
 
 
@@ -145,3 +145,86 @@ function scrollFunction() {
         },500);
 
     });
+
+
+
+
+    function Enquiry(){
+      let First_Name=document.getElementById("First_Name");
+      let Last_Name=document.getElementById("Last_Name");
+      let Email=document.getElementById("Email");
+      let Subject=document.getElementById("Subject");
+      let Message=document.getElementById("Message");
+     
+      let enquiry_obj={
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "subject": "",
+        "message": "",
+      }
+
+      if(First_Name.value !=""){
+        enquiry_obj.first_name=First_Name.value;
+      }
+
+      if(Last_Name.value !=""){
+        enquiry_obj.last_name=Last_Name.value;
+      }
+      if(Email.value !=""){
+       enquiry_obj.email=Email.value;
+      }
+
+      if(Subject.value !=""){
+       enquiry_obj.subject=Subject.value;
+      }
+
+      if(Message.value !=""){
+      enquiry_obj.message=Message.value ; 
+      }
+
+console.log(enquiry_obj)
+postData(enquiry_obj)
+
+    }
+
+
+    async function postData(data) {
+      try {
+          const response = await fetch("https://api.faizah.in/api/store-query", {
+              method: 'POST',  // Specify the method
+              headers: {
+                  'Content-Type': 'application/json',  // Indicate that the request body is JSON
+              },
+              body: JSON.stringify(data)  // Convert the data to JSON before sending
+          });
+  
+          // Check if the response status is OK (status code 200-299)
+          if (!response.ok) {
+              throw new Error(`HTTP error! Status: ${response.status}`);
+          }
+  
+          // Parse the JSON response
+          const result = await response.json();
+          console.log('Success:', result);
+
+          if(result.statusCode=== "200"){
+
+          }
+          // message
+          // : 
+          // "Query submitted successfully"
+          // status
+          // : 
+          // "success"
+          // statusCode
+          // : 
+          // "200"
+          // return result; // Return the result for further use
+      } catch (error) {
+          console.error('Error during POST request:', error); // Handle and log the error
+      }
+  }
+  
+  
+  
