@@ -1076,6 +1076,54 @@
 
               
         </main>
+
+        <script>
+          // Variables to store the starting and ending touch positions
+          let startX, startY, endX, endY;
+  
+          const swipeArea = document.getElementById('splash-screen');
+          let header=document.getElementById("header");
+     let mie_ride_banner=document.getElementById("mie_ride_banner");
+     let main=document.getElementById("main");
+  
+          // Detect touchstart event (finger touches the screen)
+          swipeArea.addEventListener('touchstart', function(e) {
+              const touch = e.touches[0]; // Capture the first touch point
+              startX = touch.clientX; // Store the starting X coordinate
+              startY = touch.clientY; // Store the starting Y coordinate
+          });
+  
+          // Detect touchmove event (finger moves on the screen)
+          swipeArea.addEventListener('touchmove', function(e) {
+              const touch = e.touches[0];
+              endX = touch.clientX; // Continuously update the current X coordinate
+              endY = touch.clientY; // Continuously update the current Y coordinate
+          });
+  
+          // Detect touchend event (finger leaves the screen)
+          swipeArea.addEventListener('touchend', function() {
+              const diffX = endX - startX; // Calculate horizontal distance swiped
+              const diffY = endY - startY; // Calculate vertical distance swiped
+  
+              // Horizontal swipe: check if horizontal swipe distance is greater than vertical and has significant distance
+              if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > 50) {
+                  if (diffX > 0) {
+                      // Right swipe
+                      swipeArea.style.display="none";
+          header.style.display="block";
+          mie_ride_banner.style.display="block";
+          main.style.display="block";
+                  } else {
+                      // Left swipe
+                      swipeArea.style.display="none";
+          header.style.display="block";
+          mie_ride_banner.style.display="block";
+          main.style.display="block";
+                  }
+              }
+          });
+      </script>
+
         <script>
           function toggleDescription(section) {
             console.log(section)
@@ -1087,16 +1135,6 @@
             }
           
           }
-
-//     setTimeout(function() {
-//     document.getElementById('splash-screen').classList.add('hidden'); // Add fade-out effect
-//     setTimeout(function() {
-//         document.getElementById('splash-screen').style.display = 'none'; // Hide after fading out
-//         document.getElementById('header').style.display = 'block'; // Show the main content
-//         document.getElementById('mie_ride_banner').style.display = 'block'; // Show the main content
-//         document.getElementById('main').style.display = 'block'; // Show the main content
-//     }, 1000); // Time for the fade-out transition to complete
-// }, 3000);
 
         </script>
          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
