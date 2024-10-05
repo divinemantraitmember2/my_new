@@ -753,7 +753,7 @@ main .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_3
 }
 main .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_3 .mie_ride_service_left_3 .description{
   color: #fff;
-    padding: 60px 0px;
+    /* padding: 60px 0px; */
     margin-top: -50px;
     font-size: 14px;
 }
@@ -825,7 +825,6 @@ main .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_4
 }
 main .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_4 .mie_ride_service_left_4 .description{
   color: #fff;
-  padding: 80px 10px;
   font-size: 15px;
   margin-top: -70px;
 }
@@ -895,7 +894,7 @@ main .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_5
 
 }
 main .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_5 .mie_ride_service_left_5 .description{
-  padding: 80px 10px;
+  padding: 100px 10px;
   font-size: 14px;
   margin-top: -70px;
 }
@@ -1062,7 +1061,7 @@ main .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_6
     
     }
     main .mie_ride_service .mie_ride_service_right_main .mie_ride_service_right_main_2 .mie_ride_service_right_2  .description{
-      padding: 80px 10px;
+      padding: 100px 10px;
       font-size: 14px;
       margin-top: -70px;
     }
@@ -1431,6 +1430,9 @@ main .mie_ride_benifits .benifits_row_one  .benifits_row_colum_driver_up_2{
 }
 
 
+main .mie_ride_benifits .benifits_row_one_2{
+  margin-top: 20px;
+}
 
 @media screen and (max-width:991px) {
   main .mie_ride_benifits .benifits_row_one_2{
@@ -2106,3 +2108,9 @@ main .mie_ride_download .mie_ride_download_title {
       line-height: 25px;
     }
   }
+
+
+  .swipe-content {
+    transition: transform 0.3s ease-in-out;
+    /* transform: translate(-50%, -50%); */
+}
