@@ -131,12 +131,18 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
 
+
+     let header=document.getElementById("header");
+     let mie_ride_banner=document.getElementById("mie_ride_banner");
+     let main=document.getElementById("main");
+     let splash_screen=document.getElementById("splash-screen");
     document.getElementById('toggleButton').addEventListener('click', function() {
-        document.getElementById('header').scrollIntoView({ behavior: 'smooth' });
+        setTimeout(() =>{
+          splash_screen.style.display="none";
+          header.style.display="block";
+          mie_ride_banner.style.display="block";
+          main.style.display="block";
+        },500);
+
     });

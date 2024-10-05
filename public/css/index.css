@@ -1656,13 +1656,13 @@ font-weight:bold;
   
   }
   .mie_ride_advertise .iphone_details .iphone_details_below {
-    height: 90px;
+    height: 100px;
     width: 100%;
     margin-top: 15px;
 }
 
 .mie_ride_advertise .iphone_details .iphone_details_up {
-  height: 90px;
+  height: 100px;
   width: 100%;
   margin-top: -95px;
   margin-left: 9px;
@@ -1671,17 +1671,21 @@ font-weight:bold;
   padding: 2px;
   margin-top: -15px;
 }
+.mie_ride_advertise .iphone_details .text_up {
+  
+  line-height: 10px;
+}
 .mie_ride_advertise .iphone_details .text_up b{
   color: #fff;
   letter-spacing: 0px;
-  font-size: 8px;
+  font-size: 10px;
   padding: 0px;
   
   }
   .mie_ride_advertise .iphone_details .text_up p{
     padding-top: 2px;
     color: #ffc61d;
-    font-size: 11px;
+    font-size: 12px;
     }
     .mie_ride_advertise .left_text_box .down_box{
       margin-top:20px;
