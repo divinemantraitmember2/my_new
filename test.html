@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Right Swipe Detection</title>
+    <title>Swipe Right and Left Detection</title>
 </head>
 <body>
 
@@ -36,10 +36,17 @@
             const diffX = endX - startX; // Calculate horizontal distance swiped
             const diffY = endY - startY; // Calculate vertical distance swiped
 
-            // Check if the horizontal swipe was larger than the vertical swipe and swipe was to the right
-            if (Math.abs(diffX) > Math.abs(diffY) && diffX > 50) { // 50px threshold for swipe detection
-                console.log("Right swipe detected!");
-                alert("Right swipe detected!");
+            // Horizontal swipe: check if horizontal swipe distance is greater than vertical and has significant distance
+            if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > 50) {
+                if (diffX > 0) {
+                    // Right swipe
+                    console.log("Right swipe detected!");
+                    alert("Right swipe detected!");
+                } else {
+                    // Left swipe
+                    console.log("Left swipe detected!");
+                    alert("Left swipe detected!");
+                }
             }
         });
     </script>
