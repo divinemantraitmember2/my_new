@@ -101,23 +101,11 @@ justify-content: center;
 
 }
 
-/* .navbar ul li:hover::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  background: #ffc61d;
-  transition: all 0.2s ease-out;
-  border-radius: 4px;
-} */
-
-/* .main_title_line{
-  height: 50px;
-} */
 
 .main_banner{
   padding-top: 30px;
   padding-bottom: 50px;
+  
 }
 .mie_ride_banner{
   background: linear-gradient(0deg, #212022 0%, #393a3f 30%);
@@ -739,7 +727,7 @@ main .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_3
 main .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_3 .mie_ride_service_left_3 .service_icon_text img{
   position: absolute;
   top: -10px;
-  left: 30px;
+  left: 20px;
   height: 30px;
   width: 30px;
 }
@@ -1194,7 +1182,8 @@ main .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_6
    main .mie_ride_benifits{
     width: 100%;
     box-sizing: border-box;
-    padding: 20px 0px;
+    padding: 70px 0px;
+    
     }
 
     main .mie_ride_benifits .mie_ride_benifits_title {
@@ -1211,11 +1200,8 @@ main .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_6
 
     main .mie_ride_benifits .benifits_row_one .benifits_row_colum {
       background-color: #60e053;
-      min-height: 200px;
       width: 100%;
-      -webkit-box-shadow: -4px 2px 5px 2px rgba(242,242,242,1);
-      -moz-box-shadow: -4px 2px 5px 2px rgba(242,242,242,1);
-      box-shadow: -4px 2px 5px 2px rgba(242,242,242,1);
+      box-shadow: 0px 5px 6px 2px rgba(0,0,0,0.1);  
       border-radius: 10px;
       margin-bottom: 20px;
      
@@ -1266,6 +1252,7 @@ main .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_6
     letter-spacing: 2px;
     text-align: center;
     background-color: #ffc61d;
+    
    }
 
    main .mie_ride_benifits .benifits_row_one .driver_text_section p{
@@ -1295,11 +1282,12 @@ font-weight: bold;
 }
 
 main .mie_ride_benifits .benifits_row_one .benifits_row_colum .number_icon_title{
-    height: 125px;
+    height: 100px;
     display: flex;
     align-items: end;
     text-transform: uppercase;
     font-weight: 600;
+    line-height: 18px;
     font-size: 13px;
 }
 main .mie_ride_benifits .benifits_row_one .benifits_row_colum .number_icon_title p{
@@ -1308,11 +1296,12 @@ main .mie_ride_benifits .benifits_row_one .benifits_row_colum .number_icon_title
 }
 
 main .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver .number_icon_title{
-  height: 125px;
+  height: 100px;
   display: flex;
   align-items: end;
   text-transform: uppercase;
   font-weight: 600;
+  line-height: 18px;
   font-size: 13px;
  
 }
@@ -1325,7 +1314,7 @@ main .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver .number_ico
 main .mie_ride_benifits .benifits_row_one  .benifits_row_colum_bellow_2{
   position: relative;
   z-index: 1;
-  min-height: 160px;
+  min-height: 125px;
   transform: rotate(-2deg);
   width: 90%;
   background-color: #0b0b0b;
@@ -1350,13 +1339,13 @@ main .mie_ride_benifits .benifits_row_one  .benifits_row_colum_up_2 .number_icon
  }
 
 main .mie_ride_benifits .benifits_row_one  .benifits_row_colum_up_2{
-    position: relative;
-    z-index: 2;
-    margin-top: -130px;
-    margin-left: 18px;
-    width: 90%;
-    min-height: 180px;
-    transform: rotate(2deg);
+  position: relative;
+  z-index: 2;
+  margin-top: -100px;
+  margin-left: 8px;
+  width: 90%;
+  min-height: 133px;
+    transform: rotate(10deg);
     box-shadow: 0px 5px 6px 2px rgba(0,0,0,0.1);  
   
 }
@@ -1364,11 +1353,9 @@ main .mie_ride_benifits .benifits_row_one  .benifits_row_colum_up_2{
 
 main .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver {
   background-color: #ffc61d;
-  min-height: 200px;
+  /* min-height: 200px; */
   width: 100%;
-  -webkit-box-shadow: -4px 2px 5px 2px rgba(242,242,242,1);
-  -moz-box-shadow: -4px 2px 5px 2px rgba(242,242,242,1);
-  box-shadow: -4px 2px 5px 2px rgba(242,242,242,1);
+  box-shadow: 0px 5px 6px 2px rgba(0,0,0,0.1); 
   border-radius: 10px;
   margin-bottom: 20px;
  
@@ -1392,12 +1379,12 @@ padding: 2px;
 }
 
 main .mie_ride_benifits .benifits_row_one  .benifits_row_colum_driver_bellow_2{
-position: relative;
-z-index: 1;
-min-height: 160px;
-transform: rotate(-2deg);
-width: 90%;
-background-color: #0b0b0b;
+  position: relative;
+  z-index: 1;
+  min-height: 125px;
+  transform: rotate(-2deg);
+  width: 90%;
+  background-color: #0b0b0b;
 
 }
 main .mie_ride_benifits .benifits_row_one  .benifits_row_colum_driver_bellow_2 .number_icon{
@@ -1422,32 +1409,52 @@ main .mie_ride_benifits .benifits_row_one  .benifits_row_colum_driver_up_2 .numb
 main .mie_ride_benifits .benifits_row_one  .benifits_row_colum_driver_up_2{
   position: relative;
   z-index: 2;
-  margin-top: -130px;
-  margin-left: 18px;
+  margin-top: -100px;
+  margin-left: 8px;
   width: 90%;
-  min-height: 180px;
-  transform: rotate(2deg);
-  box-shadow: 0px 5px 6px 2px rgba(0,0,0,0.1);  
+  min-height: 133px;
+  transform: rotate(10deg);
+  box-shadow: 0px 5px 6px 2px rgba(0, 0, 0, 0.1);
 
 }
 
 
 
 @media screen and (max-width:991px) {
+  main .mie_ride_benifits .benifits_row_one_2{
+    margin-top: -50px;
+  }
+  main .mie_ride_benifits .benifits_row_one_1{
+    margin-top: 20px;
+  }
   main .mie_ride_benifits .benifits_row_one .benifits_row_colum{
-    height: 160px;
+    height: 100px;
   }
   main .mie_ride_benifits .benifits_row_one .benifits_row_colum .number_icon_title{
-    height: 100px;
-    font-size: 11px;
+         height: 70px;
+        font-size: 9px;
+        justify-content:start;
+        line-height: 10px;
+        margin-left: 2px;
   }
+  main .mie_ride_benifits .benifits_row_one .benifits_row_colum .number_icon {
+    text-align: start;
+    padding: 3px;
+}
+main .mie_ride_benifits .benifits_row_one .benifits_row_colum {
+  margin-bottom: 10px;
+}
+
+  main .mie_ride_benifits .benifits_row_one .benifits_row_colum .number_icon_title p {
+    padding: 0px 0px;
+}
   main .mie_ride_benifits .benifits_row_one .benifits_row_colum_bellow_2{
-    min-height: 120px;
+    min-height: 100px;
   }
   main .mie_ride_benifits .benifits_row_one .benifits_row_colum_up_2 {
-    margin-top: -134px;
+    margin-top: -80px;
     margin-left: 9px;
-    min-height: 140px;
+    min-height:100px;
   }
   main .mie_ride_benifits .benifits_row_one .benifits_row_colum_up_2 .number_icon_2{
     padding: 5px;
@@ -1456,37 +1463,67 @@ main .mie_ride_benifits .benifits_row_one  .benifits_row_colum_driver_up_2{
     width: 20px;
     height: 20px;
   }
-  main .mie_ride_benifits .benifits_row_one .benifits_row_colum {
-    min-height: 150px;
-  }
+  main .mie_ride_benifits .benifits_row_one .benifits_row_colum_bellow_2 .number_icon b {
+    left: 1px;
+    top: -3px;
+    font-size: 25px;
+}
   main .mie_ride_benifits .benifits_row_one .benifits_row_colum .number_icon img{
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
   }
 
 
-  main .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver .number_icon_title{
-    height: 100px;
-    font-size: 11px;
-  }
+ 
+  main .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver .number_icon_title {
+    height: 70px;
+        font-size: 9px;
+        justify-content: start;
+        line-height: 10px;
+        margin-left: 2px;
+}
+main .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver_1{
+  min-height: 100px;
+}
+main .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver_bellow_2 .number_icon {
+  font-size: 25px;
+  
+}
   main .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver_bellow_2{
-    min-height: 120px;
+    min-height: 60px;
   }
-  main .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver_up_2 {
-    margin-top: -134px;
+  main .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver_main .benifits_row_colum_driver_bellow_2 {
+    min-height: 100px;
+}
+  main .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver_main .benifits_row_colum_driver_up_2 {
+    margin-top: -80px;
     margin-left: 9px;
-    min-height: 140px;
+    min-height: 60px;
+  }
+  main .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver_up_2 .number_icon_title {
+    height: 70px;
+    justify-content: center;
+    font-size: 9px;
+    padding: 0;
+    margin-top:0px;
+    line-height: 10px;
   }
   main .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver_up_2 .number_icon_2{
     padding: 5px;
   }
+  main .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver .number_icon {
+    padding: 3px;
+    text-align: start;
+}
+main .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver .number_icon_title p {
+  line-height: 10px;
+  padding: 0px;
+}
   main .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver_up_2 .number_icon_2 img{
     width: 20px;
     height: 20px;
   }
-  main .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver {
-    min-height: 150px;
-  }
+  
   main .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver .number_icon img{
     height: 30px;
     width: 30px;
@@ -1494,7 +1531,7 @@ main .mie_ride_benifits .benifits_row_one  .benifits_row_colum_driver_up_2{
 }
 
 .mie_ride_advertise{
-  padding: 20px 0px;
+ padding-top: 20px;
 }
 .mie_ride_advertise .iphone_details{
   padding: 5px;
@@ -1573,7 +1610,7 @@ main .mie_ride_benifits .benifits_row_one  .benifits_row_colum_driver_up_2{
 }
 
 .mie_ride_advertise .left_text_box .up_box p {
- padding: 0px;
+ padding: 10px;
  font-size: 16px;
  text-align: center;
 }
@@ -1585,22 +1622,30 @@ main .mie_ride_benifits .benifits_row_one  .benifits_row_colum_driver_up_2{
   margin-right:10px;
 }
 
+.mie_ride_advertise .iphone_details .hand_icon .hand_2{
+  top: -5px;
+  transform: rotate(-35deg);
+}
 .mie_ride_advertise .iphone_details .text_up b{
 color: #fff;
-font-size: 18px;
+font-size: 15px;
 text-transform: uppercase;
+font-weight:bold;
 
 }
 .mie_ride_advertise .iphone_details .text_up p{
   padding-top: 5px;
   color: #ffc61d;
+  margin-top: 10px;
   }
 .mie_ride_advertise .iphone_details .text_up{
   position: relative;
   margin-top: -15px;
   z-index: 2;
   padding: 5px;
+  line-height: 18px;
 }
+
 
 @media screen and (max-width:991px) {
   .mie_ride_advertise .iphone_details_colum{
