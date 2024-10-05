@@ -113,8 +113,8 @@ justify-content: center;
   display: flex;
   justify-content: center;
   align-items: center;
- 
-background: linear-gradient(0deg, #1e1f21 50%, #2f3137 100%);
+  background: rgb(30,31,32);
+background: linear-gradient(0deg, rgba(30,31,32,1) 50%, rgb(50, 51, 52) 100%);
 }
 
  .banner_main #BannerIndicators .carousel-indicators{
