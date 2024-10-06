@@ -457,7 +457,8 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
   margin-top:-15px;
   border-radius: 0px 40px 0px 0px;
 }
- .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_4 .mie_ride_service_left_4 .top_image_Airport{
+ 
+.mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_4 .mie_ride_service_left_4 .top_image_Airport{
   position: absolute;
   width: 100%;
   left: 0;
@@ -465,7 +466,8 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
   height: 100px;
   z-index: 140;
 }
- .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_4 .mie_ride_service_left_4 .airport {
+ 
+.mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_4 .mie_ride_service_left_4 .airport {
   background-color: #ec5c13;
   position: relative;
   margin-top: 80px;
@@ -475,7 +477,8 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
 -moz-box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
 box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
 }
- .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_4 .mie_ride_service_left_4 .service_icon_text{
+ 
+.mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_4 .mie_ride_service_left_4 .service_icon_text{
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -484,20 +487,23 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
   position: absolute;
   margin-top: -95px;
   /* padding: 30px 10px; */
-} .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_4 .mie_ride_service_left_4 .service_icon_text img{
+}
+ .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_4 .mie_ride_service_left_4 .service_icon_text img{
   position: absolute;
   height: 30px;
   width: 30px;
   top: -16px;
   left: 30px;
-} .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_4 .mie_ride_service_left_4 .service_icon_text p{
+}
+ .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_4 .mie_ride_service_left_4 .service_icon_text p{
   position: absolute;
   right: 30px;
   top: 30px;
   font-size: 18px;
   color: #d7d7d7;
 
-} .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_4 .mie_ride_service_left_4 .description{
+} 
+.mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_4 .mie_ride_service_left_4 .description{
   color: #fff;
   font-size: 15px;
   margin-top: -70px;
@@ -547,13 +553,15 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
   position: absolute;
   margin-top: -95px;
   /* padding: 20px; */
-} .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_5 .mie_ride_service_left_5 .service_icon_text img{
+} 
+.mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_5 .mie_ride_service_left_5 .service_icon_text img{
   position: absolute;
   height: 30px;
   width: 30px;
   top: 0px;
   left: 30px;
-} .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_5 .mie_ride_service_left_5 .service_icon_text p{
+} 
+.mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_5 .mie_ride_service_left_5 .service_icon_text p{
   position: absolute;
   right: 30px;
   font-size: 18px;
@@ -583,7 +591,8 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
   margin-top:-15px;
   border-radius: 0px 40px 0px 0px;
 }
- .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_6 .mie_ride_service_left_6 .top_image_Intercity{
+
+.mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_6 .mie_ride_service_left_6 .top_image_Intercity{
   position: absolute;
   width: 100%;
   left: 0;
@@ -591,7 +600,8 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
   height: 100px;
   z-index: 140;
 }
- .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_6 .mie_ride_service_left_6 .intercity {
+ 
+.mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_6 .mie_ride_service_left_6 .intercity {
   background-color: #ed2236;
   position: relative;
   margin-top: 80px;
@@ -602,7 +612,8 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
 -moz-box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
 box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
 }
- .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_6 .mie_ride_service_left_6 .service_icon_text{
+ 
+.mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_6 .mie_ride_service_left_6 .service_icon_text{
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -611,26 +622,29 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
   position: absolute;
   margin-top: -90px;
   padding: 20px;
-} .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_6 .mie_ride_service_left_6 .service_icon_text img{
+}
+ .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_6 .mie_ride_service_left_6 .service_icon_text img{
   position: absolute;
   height: 30px;
   width: 30px;
   top: 10px;
   left: 30px;
-} .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_6 .mie_ride_service_left_6 .service_icon_text p{
+} 
+.mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_6 .mie_ride_service_left_6 .service_icon_text p{
   position: absolute;
   right: 30px;
   font-size: 18px;
   top: 55px;
   color: #d7d7d7;
 
-} .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_6 .mie_ride_service_left_6 .description{
+} 
+.mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_6 .mie_ride_service_left_6 .description{
   padding: 20px 10px;
   font-size: 15px;
   margin-top: -10px;
 }
 
-  /* //right */
+  /* right */
   .mie_ride_service .mie_ride_service_right_main{
       width:100%;
       margin-top: 340px;
@@ -727,23 +741,8 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
     }
     
 
-    @media screen and (max-width:991px) {
-   .mie_ride_service .mie_ride_service_right_main{
-      margin-top: 60px; 
-    }
 
- .mie_ride_service .mie_ride_service_right_main  .mie_ride_service_right_main_2{
-      margin-top: 0px;
-     }
-
- .mie_ride_service .mie_ride_service_right_main .mie_ride_service_right_main_2 .mie_ride_service_right .Availabilty {
-       margin-top: 80px;
-    
-    }
-    }
-
-
- .mie_ride_service .mie_ride_service_right_main  .mie_ride_service_right_main_3{
+ .mie_ride_service .mie_ride_service_right_main .mie_ride_service_right_main_3{
       width: 100%;
       overflow: hidden;
       position:relative;
@@ -817,6 +816,10 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
       margin-top: -20px;
     }
     
+
+    
+   
+
     @media screen and (max-width:991px) {
         .main_banner {
           padding-top: 30px;
@@ -842,6 +845,14 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
       }
       .mie_ride_service .mie_ride_service_left_main {
         margin-top: 290px;
+      }
+      .mie_ride_service .mie_ride_service_right_main  .mie_ride_service_right_main_2{
+        margin-top: 0px;
+       }
+  
+   .mie_ride_service .mie_ride_service_right_main .mie_ride_service_right_main_2 .mie_ride_service_right .Availabilty {
+         margin-top: 80px;
+      
       }
 
      .mie_ride_service .mie_ride_service_right_main {
