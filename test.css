@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+section {
+    height: 100vh; /* Full screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.header{
+    position: absolute;
+    top: 15px;
+    z-index: 20;
+    background-color: #f9f9f9;
+    padding: 0px;
+  }
+  .logo_section{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+
+  .logo_section img{
+    height: 35px;
+    margin-top: 8px;
+  }
+  .logo_section span{
+    margin-top: 10px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #000;
+  text-transform: uppercase;
+  }
+.top-band{
+ padding: 0px 0px;
+}
+
+.main_nanbar{
+    background-color: #f9f9f9;
+}
+.navbar ul li{
+  margin: 0px 10px;
+}
+.navbar ul li a{
+    color: #212022;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 10px;
+    text-decoration: none;
+    font-style: normal;
+}
+
+
+
+.mie_ride_banner{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: -moz-linear-gradient( -89deg, rgba(71,75,85,0.99608) 0%, rgb(71,75,85) 0%, rgb(57,60,67) 40%, rgb(22,22,22) 100%);
+  background-image: -webkit-linear-gradient( -89deg, rgba(71,75,85,0.99608) 0%, rgb(71,75,85) 0%, rgb(57,60,67) 40%, rgb(22,22,22) 100%);
+  background-image: -ms-linear-gradient( -89deg, rgba(71,75,85,0.99608) 0%, rgb(71,75,85) 0%, rgb(57,60,67) 40%, rgb(22,22,22) 100%);
+ 
+}
+
+.banner_main{
+    margin-top: 50px;
+}
+
+ .banner_main #BannerIndicators .carousel-indicators{
+ justify-content: space-between;
+ margin-right:0% !important;
+ margin-bottom: -1.5rem !important;
+ margin-left: 0% !important;
+  
+ }
+ .banner_main #BannerIndicators .carousel-indicators button{
+  width: 10%;
+  height: 2px;
+  }
+  .banner_main #BannerIndicators .carousel-indicators [data-bs-target] {
+    border: 0px solid #fff;
+}
+
+
+
+
+#about {
+    background: #ffcc00;
+}
+
+#services {
+    background: #0099cc;
+}
+
+#contact {
+    background: #333;
+    color: white;
+}
+
+.content {
+    max-width: 80%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}

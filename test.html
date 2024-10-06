@@ -4,69 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Full Screen Sections</title>
+    <link rel="stylesheet" type="text/css" href="./test.css">  
+  <link rel="stylesheet" type="text/css" href="./public/css/bootstrap.min.css"> 
     
-    <style>
-        * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body, html {
-    height: 100%;
-    font-family: Arial, sans-serif;
-}
-
-.section {
-    height: 100vh; /* Full screen height */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-#home {
-    background: #f0f0f0; /* Background color for each section */
-}
-
-#about {
-    background: #ffcc00;
-}
-
-#services {
-    background: #0099cc;
-}
-
-#contact {
-    background: #333;
-    color: white;
-}
-
-.content {
-    max-width: 80%;
-}
-
-h1 {
-    font-size: 3rem;
-}
-
-p {
-    font-size: 1.5rem;
-}
-
-/* Smooth scrolling */
-html {
-    scroll-behavior: smooth;
-}
-
-    </style>
+    
 </head>
 <body>
-    <section class="section" id="home">
-        <div class="content">
-            <h1>Welcome to Mie Ride</h1>
+    <header class="w-100 header " id="header" >
+        <div class="main-header p-0 m-0">
+            <div class='main_navbar p-0 m-0'>
+              <div class='row p-0 m-0'>
+                <div class='container-fluid p-0 m-0'>
+                  <div class='row p-0 m-0'>
+                    <div class="col-md-11 mx-auto p-0 m-0">
+                    
+                  <div class='row p-0 m-0'>
+                    <div class='col-md-2 p-0 m-0'>
+                      <div class="logo_section">
+
+                        <div class=" d-flex justify-content-center align-items-center">
+                          <img src="./public/assets/banners/logo.png" class="img-fluid" alt="logo" height="30px" style="color: black;">
+                          
+                        </div>
+                        <div class="mx-2 d-block d-md-none">
+                          <img src="./public/assets/icons/burger-bar.png" class="img-fluid" alt="logo" height="30px" style="color: black;">
+                        </div>
+                      
+                      </div>
+
+                    </div>
+                    <div class='col-md-10 p-0 m-0'>
+                      <nav class="navbar navbar-expand-lg d-none d-md-block w-100">
+                        <ul class="navbar-nav justify-content-end ">
+                          <li class="nav-item" data-title="">
+                            <a href="/" class="nav-link">Home</a>
+                          </li>
+                          <li class="nav-item" data-title="about-us" >
+                            <a href="#about-us"  class="nav-link">About Us</a>
+                          </li>
+                          <li class="nav-item" data-title="services">
+                            <a href="#services"  class="nav-link">Services</a>
+                          </li>
+                          <li class="nav-item" data-title="benefits">
+                            <a href="#benefits" class="nav-link">Benefits</a>
+                          </li>
+                          <li class="nav-item" data-title="features">
+                            <a href="#features" class="nav-link">Features</a>
+                          </li>
+                          <li class="nav-item" data-title="advertise-with-us">
+                            <a href="#advertise-with-us" class="nav-link">Advertise With Us</a>
+                          </li>
+                          <li class="nav-item" data-title="contact-us">
+                            <a href="#contact-us"  class="nav-link">Contact Us</a>
+                          </li>
+                          <li>
+                           
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+    </header>  
+
+    <section class="mie_ride_banner"  id="mie_ride_banner"  > 
+        <div class="banner_main" >  
+         <div class="row p-0 m-0">
+         <div class="col-md-11 col-11 mx-auto p-0 m-0"> 
+      <div class="main_banner" >
+      <div id="BannerIndicators" class="carousel slide" data-bs-ride="carousel">
         </div>
-    </section>
+        </div>
+       </div>
+      </div>
+    </div>
+</section>
 
     <section class="section" id="about">
         <div class="content">
@@ -87,6 +105,6 @@ html {
         </div>
     </section>
 
-    <script src="script.js"></script>
+    <script src="./public/js/index.js"></script>
 </body>
 </html>
