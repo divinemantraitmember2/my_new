@@ -1273,6 +1273,17 @@ main .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_6
     
    }
 
+   
+@media screen and (max-width:991px) {
+  main .mie_ride_benifits .benifits_row_one .user_text_section img {
+    height: 90px;
+}
+
+main .mie_ride_benifits .benifits_row_one .driver_text_section img {
+  height: 90px;
+}
+}
+
    main .mie_ride_benifits .benifits_row_one .driver_text_section p{
     font-size: 30px;
     margin: 0px;
@@ -1443,7 +1454,7 @@ main .mie_ride_benifits .benifits_row_one_2{
 
 @media screen and (max-width:991px) {
   main .mie_ride_benifits .benifits_row_one_2{
-    margin-top: -50px;
+    margin-top: 0px;
   }
   main .mie_ride_benifits .benifits_row_one_1{
     margin-top: 20px;
