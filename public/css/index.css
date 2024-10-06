@@ -6,6 +6,9 @@
     font-family: "Nexa Bold";
   }
 
+  /* section{
+    height: 100vh;
+  } */
   .splash_screen{
     width: 100%;
     background-color: #f9f9f9;
@@ -44,6 +47,13 @@ justify-content: center;
     text-align: center;
 
   }
+  .header{
+    position: absolute;
+    top: 10px;
+    z-index: 20;
+    background-color: #f9f9f9;
+    padding: 0px;
+  }
   .logo_section{
     display: flex;
     justify-content:space-between;
@@ -62,7 +72,7 @@ justify-content: center;
   text-transform: uppercase;
   }
 .top-band{
-    background-color:rgba(71,75,85,0.99608);
+    /* background-color:rgba(71,75,85,0.99608); */
  /* background-color:#91b5e5 ; */
  padding: 0px 0px;
 }
@@ -103,15 +113,13 @@ justify-content: center;
 
 
 .main_banner{
-  padding-top: 30px;
-  padding-bottom: 50px;
-  
+ margin-top: 100px; 
 }
 
 
 .mie_ride_banner{
  
-  height: 95vh;
+  height:100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -141,8 +149,8 @@ justify-content: center;
    
    main .mie_ride_about{
     background-color: #f9f9f9;
-    padding: 50px 0px;
-    height: 100vh;
+    padding: 100px 0px;
+    /* height: 100vh; */
     }
 
     
@@ -495,7 +503,7 @@ justify-content: center;
   }
 
   main .mie_ride_service{
-    padding: 40px 0px;
+    padding: 60px 0px;
     background-image: -moz-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
   background-image: -webkit-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
   background-image: -ms-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
