@@ -2128,6 +2128,13 @@ main .mie_ride_download .mie_ride_download_title {
   }
 
 
+
+  @media screen and (max-width:768px) {
+    main .main_ride_service {
+        margin-top: 30px;
+    }
+}
+
   .swipe-content {
     transition: transform 0.3s ease-in-out;
     /* transform: translate(-50%, -50%); */
