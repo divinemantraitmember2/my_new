@@ -225,6 +225,11 @@ postData(enquiry_obj)
             document.getElementById("succes_message").innerText=result.message;
             setTimeout(()=>{
               document.getElementById("succes_message").innerText="";
+             document.getElementById("First_Name").value="";
+            document.getElementById("Last_Name").value="";
+            document.getElementById("Email").value="";
+           document.getElementById("Subject").value="";
+            document.getElementById("Message").value="";
             },2000)
           }
           
