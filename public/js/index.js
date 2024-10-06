@@ -222,7 +222,7 @@ postData(enquiry_obj)
           });
           const result = await response.json();
           if(result.statusCode==="200" && result.status==="success"){
-            document.getElementById("succes_message").innerText=result.message;
+            document.getElementById("succes_message").innerHTML=`<span class="py-4 bg-white">${result.message}</span>`;
             setTimeout(()=>{
               document.getElementById("succes_message").innerText="";
              document.getElementById("First_Name").value="";
