@@ -14,7 +14,6 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 
@@ -861,6 +860,383 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
         
      
       }
+
+
+
+ .mie_ride_benifits{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 70px 0px;
+        
+        }
+    
+   .mie_ride_benifits .mie_ride_benifits_title {
+          padding: 20px 0px;
+    
+        }
+   .mie_ride_benifits .mie_ride_benifits_title h4{
+          letter-spacing: 2px;
+           font-weight:300;  
+             font-size: 20px;
+          color: rgb(0, 0, 0);
+          
+        }
+    
+   .mie_ride_benifits .benifits_row_one .benifits_row_colum {
+          background-color: #60e053;
+          width: 100%;
+          box-shadow: 0px 5px 6px 2px rgba(0,0,0,0.1);  
+          border-radius: 10px;
+          margin-bottom: 20px;
+         
+      }
+    
+ .mie_ride_benifits .benifits_row_one .benifits_row_one_header{
+        font-size: 18px;
+        padding: 10px;
+      }
+ .mie_ride_benifits .benifits_row_one_header1{
+        font-size: 18px;
+        padding: 10px;
+      }
+    
+ .mie_ride_benifits .benifits_row_one .user_text_section{
+        min-height: 150px;
+        text-align: center;
+      }
+    
+ .mie_ride_benifits .benifits_row_one .user_text_section img{
+        height: 150px;
+      }
+ .mie_ride_benifits .benifits_row_one .driver_text_section img{
+        height: 150px;
+      }
+ .mie_ride_benifits .benifits_row_one .user_text_section p{
+           font-size: 30px;
+           margin: 0px;
+           padding: 0px;
+           letter-spacing: 2px;
+           font-weight: bold;
+          color:#fff;
+          filter: drop-shadow(-0.5px 0 0 rgb(10, 10, 10))
+                  drop-shadow(0.5px 0 0 rgb(12, 12, 12))
+                  drop-shadow(0 -0.5px 0 rgb(17, 17, 17))
+                  drop-shadow(0 0.5px 0 rgb(16, 16, 16));
+       
+      }
+ .mie_ride_benifits .benifits_row_one .user_text_section h5{
+       text-transform: uppercase;
+       margin: 0px;
+       padding: 0px;
+       font-weight: bold;
+       font-size: 30px;
+       letter-spacing: 2px;
+       background-color: #60e053;
+      }
+    
+ .mie_ride_benifits .benifits_row_one .driver_text_section h5{
+        text-transform: uppercase;
+        margin: 0px;
+        padding: 0px;
+        font-weight: bold;
+        font-size: 30px;
+        letter-spacing: 2px;
+        text-align: center;
+        background-color: rgb(255, 198, 29);
+        
+       }
+    
+       
+   
+    
+  .mie_ride_benifits .benifits_row_one .driver_text_section p{
+        font-size: 30px;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        letter-spacing: 2px;
+        font-weight: bold;
+       color:#fff;
+       filter: drop-shadow(-0.5px 0 0 rgb(10, 10, 10))
+               drop-shadow(0.5px 0 0 rgb(12, 12, 12))
+               drop-shadow(0 -0.5px 0 rgb(17, 17, 17))
+               drop-shadow(0 0.5px 0 rgb(16, 16, 16));
+    
+    }
+ .mie_ride_benifits .benifits_row_one .benifits_row_colum .number_icon{
+        text-align: center;
+        padding: 10px;
+    }
+     
+    
+  .mie_ride_benifits .benifits_row_one .benifits_row_colum .number_icon img{
+    width: 35px;
+    height: 35px;
+    font-weight: bold;
+    }
+    
+  .mie_ride_benifits .benifits_row_one .benifits_row_colum .number_icon_title{
+        height: 100px;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        padding: 0px 5px;
+        
+    }
+  .mie_ride_benifits .benifits_row_one .benifits_row_colum .number_icon_title p{
+      color: #000;
+      text-align: start;
+     text-transform: uppercase;
+        font-weight: 600;
+        line-height: 18px;
+        font-size: 13px;
+    }
+    
+  .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver .number_icon_title{
+      height: 100px;
+      display: flex;
+      align-items: end;
+      justify-content: start;
+      padding: 0px 5px;
+     
+    }
+  .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver .number_icon_title p{
+      color: #000;
+      text-align: start;
+     text-transform: uppercase;
+      font-weight: 600;
+      line-height: 18px;
+      font-size: 13px;
+     
+    }
+    
+    
+  .mie_ride_benifits .benifits_row_one  .benifits_row_colum_bellow_2{
+      position: relative;
+      z-index: 1;
+      min-height: 125px;
+      transform: rotate(-2deg);
+      width: 90%;
+      background-color: #0b0b0b;
+      
+    }
+  .mie_ride_benifits .benifits_row_one  .benifits_row_colum_bellow_2 .number_icon{
+    color:#60e053 ;
+    font-size: 30px;
+    font-weight:bolder;
+    padding: 0;
+    }
+  .mie_ride_benifits .benifits_row_one  .benifits_row_colum_bellow_2 .number_icon b{
+      position: absolute;
+      left:5px;
+    }
+    
+  .mie_ride_benifits .benifits_row_one  .benifits_row_colum_up_2 .number_icon_2{
+     padding: 10px;
+    }
+  .mie_ride_benifits .benifits_row_one  .benifits_row_colum_up_2 .number_icon_2 img{
+      width: 20px;
+     }
+    
+  .mie_ride_benifits .benifits_row_one  .benifits_row_colum_up_2{
+      position: relative;
+      z-index: 2;
+      margin-top: -100px;
+      margin-left: 8px;
+      width: 90%;
+      min-height: 133px;
+        transform: rotate(10deg);
+        box-shadow: 0px 5px 6px 2px rgba(0,0,0,0.1);  
+      
+    }
+    
+    
+  .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver {
+      background-color: rgb(255, 198, 29);
+      /* min-height: 200px; */
+      width: 100%;
+      box-shadow: 0px 5px 6px 2px rgba(0,0,0,0.1); 
+      border-radius: 10px;
+      margin-bottom: 20px;
+     
+    }
+    
+  .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver .number_icon{
+      text-align: center;
+      padding: 10px;
+    }
+    
+    
+  .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver .number_icon img{
+    width: 35px;
+    height: 35px;
+    font-weight: bold;
+    }
+    
+ 
+    
+  .mie_ride_benifits .benifits_row_one  .benifits_row_colum_driver_bellow_2{
+      position: relative;
+      z-index: 1;
+      min-height: 125px;
+      transform: rotate(-2deg);
+      width: 90%;
+      background-color: #0b0b0b;
+    
+    }
+  .mie_ride_benifits .benifits_row_one  .benifits_row_colum_driver_bellow_2 .number_icon{
+    color:#60e053 ;
+    font-size: 30px;
+    font-weight:bolder;
+    padding: 0;
+    }
+  .mie_ride_benifits .benifits_row_one  .benifits_row_colum_driver_bellow_2 .number_icon b{
+    position: absolute;
+    left:5px;
+    }
+    
+  .mie_ride_benifits .benifits_row_one  .benifits_row_colum_driver_up_2 .number_icon_2{
+    padding: 10px;
+    }
+    
+  .mie_ride_benifits .benifits_row_one  .benifits_row_colum_driver_up_2 .number_icon_2 img{
+      width: 20px;
+      }
+    
+  .mie_ride_benifits .benifits_row_one  .benifits_row_colum_driver_up_2{
+      position: relative;
+      z-index: 2;
+      margin-top: -100px;
+      margin-left: 8px;
+      width: 90%;
+      min-height: 133px;
+      transform: rotate(10deg);
+      box-shadow: 0px 5px 6px 2px rgba(0, 0, 0, 0.1);
+    
+    }
+    
+    
+  .mie_ride_benifits .benifits_row_one_2{
+      margin-top: 20px;
+    }
+
+    @media screen and (max-width:991px) {
+        .mie_ride_benifits .benifits_row_one .user_text_section img {
+               height: 90px;
+           }
+           
+        .mie_ride_benifits .benifits_row_one .driver_text_section img {
+             height: 90px;
+           }
+     }
+    
+    @media screen and (max-width:991px) {
+ .mie_ride_benifits .benifits_row_one_2{
+        margin-top: 0px;
+      }
+ .mie_ride_benifits .benifits_row_one_1{
+        margin-top: 20px;
+      }
+ .mie_ride_benifits .benifits_row_one .benifits_row_colum{
+        height: 100px;
+      }
+ .mie_ride_benifits .benifits_row_one .benifits_row_colum .number_icon_title{
+             height: 70px;
+           
+      }
+      .mie_ride_benifits .benifits_row_one .benifits_row_colum .number_icon_title p {
+        font-size: 9px;
+            line-height: 10px;
+    }
+ .mie_ride_benifits .benifits_row_one .benifits_row_colum .number_icon {
+        text-align: start;
+        padding: 3px;
+    }
+  .mie_ride_benifits .benifits_row_one .benifits_row_colum {
+      margin-bottom: 10px;
+    }
+    
+ 
+ .mie_ride_benifits .benifits_row_one .benifits_row_colum_bellow_2{
+        min-height: 100px;
+      }
+ .mie_ride_benifits .benifits_row_one .benifits_row_colum_up_2 {
+        margin-top: -80px;
+        margin-left: 9px;
+        min-height:100px;
+      }
+ .mie_ride_benifits .benifits_row_one .benifits_row_colum_up_2 .number_icon_2{
+        padding: 5px;
+      }
+ .mie_ride_benifits .benifits_row_one .benifits_row_colum_up_2 .number_icon_2 img{
+        width: 20px;
+        height: 20px;
+      }
+ .mie_ride_benifits .benifits_row_one .benifits_row_colum_bellow_2 .number_icon b {
+        left: 1px;
+        top: -3px;
+        font-size: 25px;
+    }
+     .mie_ride_benifits .benifits_row_one .benifits_row_colum .number_icon img{
+        height: 25px;
+        width: 25px;
+      }
+    
+    
+     
+ .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver .number_icon_title {
+        height: 75px;
+    }
+  .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver_1{
+      min-height: 100px;
+    }
+  .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver_bellow_2 .number_icon {
+      font-size: 25px;
+      
+    }
+ .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver_bellow_2{
+        min-height: 60px;
+      }
+ .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver_main .benifits_row_colum_driver_bellow_2 {
+        min-height: 100px;
+    }
+ .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver_main .benifits_row_colum_driver_up_2 {
+        margin-top: -80px;
+        margin-left: 9px;
+        min-height: 60px;
+      }
+ .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver_up_2 .number_icon_title {
+        height: 70px;
+        justify-content: center;
+        font-size: 9px;
+        padding: 0;
+        margin-top:0px;
+        line-height: 10px;
+      }
+ .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver_up_2 .number_icon_2{
+        padding: 5px;
+      }
+ .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver .number_icon {
+        padding: 3px;
+        text-align: start;
+    }
+  .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver .number_icon_title p {
+    font-size: 9px;
+    line-height: 10px;
+    padding:0px 2px;
+    }
+ .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver_up_2 .number_icon_2 img{
+        width: 20px;
+        height: 20px;
+      }
+      
+ .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver .number_icon img{
+        height: 30px;
+        width: 30px;
+      }
+    }
+
+   
       
 
 #contact {
