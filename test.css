@@ -96,11 +96,90 @@ section {
 }
 
 
+.mie_ride_about{
+    background-color: #f9f9f9;
+    padding: 50px 0px;
+    /* height: 100vh; */
+    }
 
+.mie_ride_about{
+    background-color: #f9f9f9;
+ }
+ .mie_ride_about .main_title_line{
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+   .mie_ride_about .main_title_line h4{
+    color: #646464;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight:300;  
+    font-size: 20px;
 
-#about {
-    background: #ffcc00;
-}
+ }
+ .mie_ride_about .main_title_line p{
+    color: #646464;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 13px;
+
+ }
+
+ .mie_ride_about_desc{
+    margin-top: 20px;
+    background-color: rgb(255, 198, 29);
+  }
+  .mie_ride_about_desc .mie_ride_about_desc_text p{
+    padding: 20px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 30px;
+    color: #212022;
+      
+  }
+  .mie_ride_about_desc .mie_ride_about_desc_text{
+    padding:  40px 0px;
+    
+  }
+
+  @media screen and (max-width:991px) {
+    
+    .mie_ride_about{ 
+      padding-top: 50px;
+      padding-bottom: 30px;
+      }
+      .mie_ride_about_desc .mie_ride_about_desc_text p {
+        padding: 10px;
+       font-size: 14px;
+        letter-spacing: 2px;
+        text-align: center;
+        font-weight: 500;
+        line-height: 25px;
+        color: #212022;
+    }
+  
+      .mie_ride_about p{
+      font-size: 12px;
+      }
+     
+      .mie_ride_about_desc .mie_ride_about_desc_text p{
+      font-size: 16px;  
+    }
+  
+    .mie_ride_about .main_title_line p{
+      font-size: 12px; 
+
+    }
+    .mie_ride_about .main_title_line{
+        padding-top: 0px;
+        padding-bottom: 0px;
+       }
+    .mie_ride_about_desc .mie_ride_about_desc_text{
+      padding:  40px 0px;  
+    }
+  }
 
 #services {
     background: #0099cc;
@@ -110,6 +189,9 @@ section {
     background: #333;
     color: white;
 }
+
+
+
 
 .content {
     max-width: 80%;
