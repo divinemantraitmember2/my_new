@@ -49,7 +49,7 @@ justify-content: center;
   }
   .header{
     position: absolute;
-    top: 10px;
+    top: 15px;
     z-index: 20;
     background-color: #f9f9f9;
     padding: 0px;
@@ -118,16 +118,15 @@ justify-content: center;
 
 
 .mie_ride_banner{
- 
   height:100vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: -moz-linear-gradient( -89deg, rgba(71,75,85,0.99608) 0%, rgb(71,75,85) 0%, rgb(57,60,67) 40%, rgb(22,22,22) 100%);
-    background-image: -webkit-linear-gradient( -89deg, rgba(71,75,85,0.99608) 0%, rgb(71,75,85) 0%, rgb(57,60,67) 40%, rgb(22,22,22) 100%);
-    background-image: -ms-linear-gradient( -89deg, rgba(71,75,85,0.99608) 0%, rgb(71,75,85) 0%, rgb(57,60,67) 40%, rgb(22,22,22) 100%);
-
-  
+  background-image: -webkit-linear-gradient( -89deg, rgba(71,75,85,0.99608) 0%, rgb(71,75,85) 0%, rgb(57,60,67) 40%, rgb(22,22,22) 100%);
+  background-image: -ms-linear-gradient( -89deg, rgba(71,75,85,0.99608) 0%, rgb(71,75,85) 0%, rgb(57,60,67) 40%, rgb(22,22,22) 100%);
+ 
 }
 
 
@@ -149,7 +148,7 @@ justify-content: center;
    
    main .mie_ride_about{
     background-color: #f9f9f9;
-    padding: 100px 0px;
+    padding: 50px 0px;
     /* height: 100vh; */
     }
 
