@@ -1228,8 +1228,15 @@ main .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_6
   }
 
   main .mie_ride_benifits .benifits_row_one .user_text_section{
-    min-height: 200px;
+    min-height: 150px;
     text-align: center;
+  }
+
+  main .mie_ride_benifits .benifits_row_one .user_text_section img{
+    height: 150px;
+  }
+  main .mie_ride_benifits .benifits_row_one .driver_text_section img{
+    height: 150px;
   }
   main .mie_ride_benifits .benifits_row_one .user_text_section p{
        font-size: 30px;

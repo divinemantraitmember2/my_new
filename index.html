@@ -437,7 +437,7 @@
                             </div> 
                             <div class="col-md-6 col-3  d-block d-lg-none">
                               <div class="user_text_section">
-                                <img src="./public/assets/icons/User.png" class="img-fluid" alt="user" >
+                                <img src="./public/assets/icons/User.png" class="img-fluid user_text" alt="user" >
                               </div>
                             </div> 
                           </div>
@@ -459,7 +459,7 @@
                      <div class="row">
                        <div class="col-lg-2 d-none d-lg-block">
                          <div class="driver_text_section">
-                           <img src="./public/assets/icons/driver1.png" class="img-fluid" alt="driver">
+                           <img src="./public/assets/icons/driver1.png" class="img-fluid driver_text" alt="driver">
                          </div>
                        </div>
                      <div class="col-md-10">
@@ -532,7 +532,7 @@
                           <div class="row">
                             <div class="col-md-6 col-3 d-block d-lg-none">
                               <div class="driver_text_section">
-                                <img src="./public/assets/icons/driver.png" class="img-fluid" alt="driver">
+                                <img src="./public/assets/icons/driver1.png" class="img-fluid" alt="driver">
                               </div>
                             </div>
                             <div class="col-md-6 col-3">
@@ -1008,38 +1008,42 @@
                               <p class="text-uppercase contact-form-title">Got Questions? We're here to help</p>
                               <form>
                                 <div class="row">
-        
+                                  <p class="text-center text-capitalize text-success" id="succes_message"></p>
                                   <div class="col-md-6">
                                     <div class="mb-3">
-                                      <input class="form-control rounded-0" placeholder="First Name" id="First_Name">
+                                      <input type="text" maxlength="150"  class="form-control rounded-0" placeholder="First Name" id="First_Name">
+                                      <span class="text-danger" id="firstname_error"></span>
                                     </div>
                                   </div>
                                   <div class="col-md-6">
                                     <div class="mb-3">
-                                      <input class="form-control rounded-0" placeholder="Last Name" id="Last_Name">
+                                      <input type="text" maxlength="150" class="form-control rounded-0" placeholder="Last Name" id="Last_Name">
+                                   <span class="text-danger" id="lastname_error"></span>
                                     </div>
                                   </div>
                                   <div class="col-md-12">
                                     <div class="mb-3">
-                                      <input class="form-control rounded-0" placeholder="Email" id="Email">
+                                      <input type="email" maxlength="150" class="form-control rounded-0" placeholder="Email" id="Email">
+                                      <span class="text-danger" id="email_error"></span>
                                     </div>
                                   </div>
                                   <div class="col-md-12">
                                     <div class="mb-3">
-                                      <input class="form-control rounded-0" placeholder="Subject" id="Subject">
+                                      <input type="text" maxlength="200" class="form-control rounded-0" placeholder="Subject" id="Subject">
+                                      <span class="text-danger" id="subject_error"></span>
                                     </div>
             
                                   </div>
                                   <div class="col-md-12">
                                     <div class="mb-3">
-                                      <textarea class="form-control rounded-0" placeholder="Add Message" id="Message" aria-label="With textarea"></textarea>
-                                     
+                                      <textarea class="form-control rounded-0" maxlength="250" placeholder="Add Message" id="Message" aria-label="With textarea"></textarea>
+                                      <span class="text-danger" id="message_error"></span>
                                     </div>
                                   </div>
                                   <div class="col-md-12">
                                     <div class="mb-3 form_btn">
-                                      <div class="Send_Message d-flex justify-content-center w-100 " >
-                                     <button type="button" class="btn Send_Message_btn  rounded-0">Send Message</button>
+                                      <div class="Send_Message w-50 mx-auto " >
+                                     <button type="button" class="btn Send_Message_btn  rounded-0" onclick="Enquiry()">Send Message</button>
                                       </div>
                                       <!-- <div class="OR">
                                         <span >OR</span>

@@ -117,18 +117,18 @@ window.addEventListener('resize', function() {
 
 
 // Get the button:
-let mybutton = document.getElementById("service_myBtn");
+// let mybutton = document.getElementById("service_myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+// window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
+// function scrollFunction() {
+//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//     mybutton.style.display = "block";
+//   } else {
+//     mybutton.style.display = "none";
+//   }
+// }
 
 
 
@@ -145,3 +145,93 @@ function scrollFunction() {
         },500);
 
     });
+
+
+
+
+    function Enquiry(){
+      let First_Name=document.getElementById("First_Name");
+      let Last_Name=document.getElementById("Last_Name");
+      let Email=document.getElementById("Email");
+      let Subject=document.getElementById("Subject");
+      let Message=document.getElementById("Message");
+     
+      let enquiry_obj={
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "subject": "",
+        "message": "",
+      }
+
+      setTimeout(()=>{
+        document.getElementById("firstname_error").innerText="";
+        document.getElementById("lastname_error").innerText=""; 
+        document.getElementById("email_error").innerText="";
+        document.getElementById("subject_error").innerText="";
+        document.getElementById("message_error").innerText="";
+      },2000)
+
+      if(First_Name.value !=""){
+        enquiry_obj.first_name=First_Name.value;
+      }else{
+        document.getElementById("firstname_error").innerText="First name must be required";
+        return false
+      }
+
+      if(Last_Name.value !=""){
+        enquiry_obj.last_name=Last_Name.value;
+      }else{
+        document.getElementById("lastname_error").innerText="Last name must be required";
+        return false
+      }
+
+      if(Email.value !=""){
+       enquiry_obj.email=Email.value;
+      }else{
+        document.getElementById("email_error").innerText="Email must be required";
+        return false
+      }
+
+      if(Subject.value !=""){
+       enquiry_obj.subject=Subject.value;
+      }else{
+        document.getElementById("subject_error").innerText="Subject must be required";
+        return false
+      }
+
+      if(Message.value !=""){
+      enquiry_obj.message=Message.value ; 
+      }else{
+        document.getElementById("message_error").innerText="Message must be required";
+        return false
+      }
+
+postData(enquiry_obj)
+ }
+
+
+    async function postData(data) {
+      try {
+          const response = await fetch("https://api.faizah.in/api/store-query", {
+              method: 'POST',
+              headers: {
+                  'Content-Type': 'application/json',
+                  },
+              body: JSON.stringify(data)
+          });
+          const result = await response.json();
+          if(result.statusCode==="200" && result.status==="success"){
+            document.getElementById("succes_message").innerText=result.message;
+            setTimeout(()=>{
+              document.getElementById("succes_message").innerText="";
+            },2000)
+          }
+          
+      } catch (error) {
+          console.error('Error during POST request:', error); // Handle and log the error
+      }
+  }
+  
+  
+  
