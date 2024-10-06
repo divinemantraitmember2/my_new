@@ -40,7 +40,7 @@ if(window.innerWidth > 768){
           </div>
           <div class="carousel-inner">
             <div class="carousel-item destop_banner active " id="divice-desctop">
-              <img src="./public/assets/banners/banner-desktop.png" class="d-block w-100" alt="First slide">
+              <img src="./public/assets/banners/check111.png" class="d-block w-100" alt="First slide">
             </div>
             <div class="carousel-item destop_banner ">
               <img src="./public/assets/banners/check2.png" class="d-block w-100" alt="Second slide">
