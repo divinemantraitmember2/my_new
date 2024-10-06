@@ -1269,6 +1269,111 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
       }
     }
 
+
+  .mie_ride_features{
+    padding: 70px 0px;
+      background-image: -moz-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
+      background-image: -webkit-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
+      background-image: -ms-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
+    
+    }
+
+  .mie_ride_features .main_title_line h4{
+       letter-spacing: 3px;
+       font-weight: 400;
+       font-size: 18px;
+       font-family: "NexaLight";
+       color: rgb(255, 255, 255);     
+    }
+
+  .mie_ride_features .mie_ride_features_desc h4{
+      color: #fff;
+       padding: 10px 0px;
+       letter-spacing: 2px;
+       font-size: 15px;
+       font-weight: 300;
+    }
+  .mie_ride_features .mie_ride_features_desc{
+      padding: 30px 0px;
+    }
+
+  .mie_ride_features .notebook2 {
+      width: 100%;
+      height: 400px;
+      border-radius: 8px;
+      background-image: url("./public/assets/images/book2.png");
+      background-repeat: no-repeat;
+      background-size:cover;
+      position: relative;
+      overflow: hidden;
+    }
+    
+   
+    /* Optionally, you can add this class to darken only specific notebooks */
+  .mie_ride_features .notebook4 {
+      filter: brightness(0.9);
+    }
+    
+  .mie_ride_features .notebook2 ul {
+      width: 85%;
+  position: absolute;
+  /* left: 35px; */
+  top: 30px;
+  right: 0;
+  overflow: hidden;
+  padding: 15px;
+    }
+    
+  .mie_ride_features .notebook2 ul li {
+      line-height: 25px;
+      font-size: 18px;
+      list-style-type: none;
+    }
+    
+  .mie_ride_features .notebook2 .first {
+      color: #55bd4a;
+    }
+    
+  .mie_ride_features .notebook2 .second {
+      color: #fff;
+    }
+    
+  .mie_ride_features .notebook2 .third {
+      color: rgb(255, 198, 29);
+    }
+    
+    /* Add a custom bullet point for all list items */
+  .mie_ride_features .notebook2 ul li::before {
+      content: "•"; /* Custom bullet point */
+      color: inherit; /* Inherits the color of the list item */
+      font-weight: bold;
+      margin-right: 10px;
+    }
+   
+    @media screen and (max-width:991px) {
+    
+   .mie_ride_features .mie_ride_features_desc h4{
+    margin-top: 30px;
+      font-size: 14px;
+    }
+   .mie_ride_features .mie_ride_features_desc {
+      padding: 0px 0px;
+    }        
+   
+    }
+    
+    @media screen and (max-width: 768px) {
+  
+     .mie_ride_features .notebook2 ul {
+        width: 80%; 
+        top: 20px;
+      }
+     .mie_ride_features .notebook2 ul li {
+        font-size: 16px; 
+        line-height: 25px;
+      }
+    }
+  
    
       
 
