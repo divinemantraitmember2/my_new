@@ -164,63 +164,70 @@ window.addEventListener('resize', function() {
         "message": "",
       }
 
+      setTimeout(()=>{
+        document.getElementById("firstname_error").innerText="";
+        document.getElementById("lastname_error").innerText=""; 
+        document.getElementById("email_error").innerText="";
+        document.getElementById("subject_error").innerText="";
+        document.getElementById("message_error").innerText="";
+      },2000)
+
       if(First_Name.value !=""){
         enquiry_obj.first_name=First_Name.value;
+      }else{
+        document.getElementById("firstname_error").innerText="First name must be required";
+        return false
       }
 
       if(Last_Name.value !=""){
         enquiry_obj.last_name=Last_Name.value;
+      }else{
+        document.getElementById("lastname_error").innerText="Last name must be required";
+        return false
       }
+
       if(Email.value !=""){
        enquiry_obj.email=Email.value;
+      }else{
+        document.getElementById("email_error").innerText="Email must be required";
+        return false
       }
 
       if(Subject.value !=""){
        enquiry_obj.subject=Subject.value;
+      }else{
+        document.getElementById("subject_error").innerText="Subject must be required";
+        return false
       }
 
       if(Message.value !=""){
       enquiry_obj.message=Message.value ; 
+      }else{
+        document.getElementById("message_error").innerText="Message must be required";
+        return false
       }
 
-console.log(enquiry_obj)
 postData(enquiry_obj)
-
-    }
+ }
 
 
     async function postData(data) {
       try {
           const response = await fetch("https://api.faizah.in/api/store-query", {
-              method: 'POST',  // Specify the method
+              method: 'POST',
               headers: {
-                  'Content-Type': 'application/json',  // Indicate that the request body is JSON
-              },
-              body: JSON.stringify(data)  // Convert the data to JSON before sending
+                  'Content-Type': 'application/json',
+                  },
+              body: JSON.stringify(data)
           });
-  
-          // Check if the response status is OK (status code 200-299)
-          if (!response.ok) {
-              throw new Error(`HTTP error! Status: ${response.status}`);
-          }
-  
-          // Parse the JSON response
           const result = await response.json();
-          console.log('Success:', result);
-
-          if(result.statusCode=== "200"){
-
+          if(result.statusCode==="200" && result.status==="success"){
+            document.getElementById("succes_message").innerText=result.message;
+            setTimeout(()=>{
+              document.getElementById("succes_message").innerText="";
+            },2000)
           }
-          // message
-          // : 
-          // "Query submitted successfully"
-          // status
-          // : 
-          // "success"
-          // statusCode
-          // : 
-          // "200"
-          // return result; // Return the result for further use
+          
       } catch (error) {
           console.error('Error during POST request:', error); // Handle and log the error
       }
