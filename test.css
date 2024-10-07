@@ -1543,7 +1543,7 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
        line-height: 18px;
      }
      .mie_ride_advertise  .mie_ride_advertise_bottom{
-        padding: 5px;
+        padding: 15px 0px;
         font-size: 16px;
      }
      .mie_ride_advertise  .mie_ride_advertise_bottom p{  
@@ -1608,6 +1608,298 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
           font-size: 10px;
       }
      }
+
+
+
+ .mie_ride_download{
+      background-image: -moz-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
+      background-image: -webkit-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
+      background-image: -ms-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
+    }
+    
+.mie_ride_download .mie_ride_download_title{
+    text-align: center;
+    margin-top: 20px;
+    }
+    
+.mie_ride_download .mie_ride_download_title h4{
+      color: #fff;
+      font-size: 25px;
+      font-family: "NexaLight";
+      text-transform: uppercase;
+      text-align: center;
+      letter-spacing: 5px;
+    }
+.mie_ride_download .mie_ride_download_title p{
+      letter-spacing: 3px;
+      color: #fff;
+      letter-spacing: 6px;
+       text-transform: uppercase;
+       font-weight:300;
+       font-size: 13px;
+       padding: 10px 0px;
+    }
+.mie_ride_download  .main_downloals{
+      padding-top: 30px;
+      
+    }
+    
+    
+.mie_ride_download .card_container_left {
+      position: relative;
+      width: 300px;
+      height: 300px;
+    }
+    
+.mie_ride_download .card_container_left .card {
+      border-radius: 20px;
+      width: 100%;
+      height: 100%;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      position: absolute;
+      text-align: center;
+      color: black;
+    
+    }
+    
+.mie_ride_download .card_container_left .app_details_image img{
+    z-index: 0px;
+    position: absolute;
+    margin-top: -40px;
+    right: 0;
+    }
+.mie_ride_download .card_container_left .app_details{
+    z-index: 20px;
+    position: absolute;
+    margin-top: 50px;
+    right: 0;
+    }
+.mie_ride_download .card_container_left .app_details .app_details_circul{
+      z-index: 30px;
+      position: absolute;
+       top: -80px;
+      right:20px;
+      width: 30px;
+    }
+    /* Green card (front) */
+.mie_ride_download .card_container_left .card-front {
+      background-color: #60e053; /* Bright green */
+      z-index: 2;
+      transform: rotate(0deg); /* No rotation */
+    }
+    
+    /* Yellow card (back) */
+.mie_ride_download .card_container_left .card-back {
+      background-color: #ffeb3b; /* Bright yellow */
+      z-index: 1;
+      transform: rotate(-10deg); /* Tilt the yellow card */
+      top: 50px;
+      left: 20px;
+     
+    }
+.mie_ride_download .card_container_left .app_details_title p{
+      font-size: 18px;
+      color: #333;
+      letter-spacing: 2px;
+    text-align: start;
+    font-family: "NexaBold";
+    }
+.mie_ride_download .card_container_left .card-back p{
+      margin-top: 245px;
+        font-size: 18px;
+        color: #333;
+        letter-spacing: 2px;
+      text-align: center;
+      font-family: "Nexalight";
+    }
+    
+    
+    
+    /* Text styling */
+.mie_ride_download .card_container_left h2 {
+      font-size: 20px;
+      color: black;
+      letter-spacing: 2px;
+      font-family: "NexaBold";
+    }
+    
+    
+    
+.mie_ride_download  .store-logos a{
+      text-decoration: none;
+    }
+.mie_ride_download .letf_main_download .card_container_left .store-logos {
+      display: flex;
+      flex-direction: column;
+      margin-left: 150px;
+      margin-top: 130px;
+    
+    }
+    
+.mie_ride_download .letf_main_download .card_container_left .store-logo {
+      margin: 5px;
+      width: 120px;
+     
+    }
+    
+.mie_ride_download .letf_main_download .card_container_left .app_details_title{
+      position: absolute;
+      top: -30px;
+      
+    }
+    /* right */
+    
+.mie_ride_download .right_main_download .card_container_right {
+      position: relative;
+      width: 300px;
+      height: 300px;
+    }
+    
+.mie_ride_download .right_main_download .card_container_right .card {
+      border-radius: 20px;
+      width: 100%;
+      height: 100%;
+      /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
+      padding: 20px;
+      position: absolute;
+      text-align: center;
+      color: #fff;
+    
+    }
+    
+.mie_ride_download .right_main_download .card_container_right .app_details_image img{
+    z-index: 0px;
+    position: absolute;
+    margin-top: -40px;
+    left: 0;
+    }
+.mie_ride_download .right_main_download .card_container_right .app_details{
+    z-index: 20px;
+    position: absolute;
+    margin-top: 50px;
+    right: 0;
+    }
+.mie_ride_download .right_main_download .card_container_right .app_details .app_details_circul{
+      z-index: 30px;
+      position: absolute;
+       top: -70px;
+      left:0px;
+      height: 30px;
+      width: 30px;
+    }
+    /* Green card (front) */
+.mie_ride_download .right_main_download .card_container_right .card-front {
+      background-color: #ea2235; /* Bright green */
+      z-index: 2;
+      transform: rotate(0deg); /* No rotation */
+    }
+    
+    /* Yellow card (back) */
+.mie_ride_download .right_main_download .card_container_right .card-back {
+      background-color: #024494;
+        z-index: 1;
+        transform: rotate(10deg);
+        top: 51px;
+        left: -20px;
+     
+    }
+.mie_ride_download .right_main_download .card_container_right .card-back p{
+        margin-top: 245px;
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 2px;
+        font-family: "Nexalight";
+    }
+    
+    /* Store logos styling */
+.mie_ride_download .right_main_download .card_container_right .store-logos {
+      display: flex;
+      flex-direction: column;
+      margin-right: 150px;
+      margin-top: 130px;
+    
+    }
+    
+.mie_ride_download .right_main_download .card_container_right .store-logo {
+      margin: 5px;
+      width: 120px;
+     
+    }
+    
+.mie_ride_download .right_main_download .card_container_right .app_details_title{
+      position: absolute;
+      right: 20px;
+      top: -30px;
+      
+    }
+    /* Text styling */
+.mie_ride_download .right_main_download .card_container_right h2 {
+      font-size: 20px;
+      font-family: "NexaBold";
+      color:#fff;
+      letter-spacing: 2px;
+    }
+    
+.mie_ride_download .right_main_download .card_container_right p {
+      font-size: 16px;
+      color: #fff;
+      letter-spacing: 2;
+      text-align: end;
+    }
+.mie_ride_download .botton_layer_2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+    
+    }
+.mie_ride_download .botton_layer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+    
+    }
+.mie_ride_download .botton_layer_2 img{
+      opacity: 0.4
+    }
+.mie_ride_download .botton_layer img{
+      opacity: 0.4
+    }
+    @media screen and (max-width:991px) {
+
+      .mie_ride_download{
+        height: 100%;
+      }
+      .mie_ride_download .mie_ride_download_title {
+        margin-top: 40px;
+    }
+  .mie_ride_download .botton_layer_2{
+        padding: 20px;
+        margin-top: 10px;
+      
+      }
+  .mie_ride_download .botton_layer{
+         padding: 20px;
+        margin-top: 10px;
+      
+      }
+  .mie_ride_download {
+        padding: 0px 0px;
+    }
+  .mie_ride_download .right_main_download{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+      }
+  .mie_ride_download .letf_main_download{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+      }
+    }
+    
      
 
 
