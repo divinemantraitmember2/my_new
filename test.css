@@ -839,6 +839,10 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
           padding-top: 30px;
           padding-bottom: 40px;
       } */
+
+      .banner_main {
+        margin-top: 0px;
+    }
         .logo_section{
           padding: 10px;
         }
