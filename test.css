@@ -122,7 +122,7 @@ section {
    }
    
    .mie_ride_about .main_title_line h4{
-    font-size: 25px;
+    font-size: 20px;
     font-family: "NexaLight";
     color: rgb(0, 0, 0);
     text-transform: uppercase;
@@ -134,7 +134,7 @@ section {
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 12px;
     font-family: "NexaBold";
     color: rgba(0, 0, 0, 0.902);
  }
@@ -170,20 +170,10 @@ section {
       .mie_ride_about_desc .mie_ride_about_desc_text p {
         padding: 10px;
        font-size: 14px;
-        letter-spacing: 2px;
         text-align: center;
-        font-weight: 500;
         line-height: 25px;
-        color: #212022;
     }
-  
-      .mie_ride_about p{
-      font-size: 12px;
-      }
-     
-      .mie_ride_about_desc .mie_ride_about_desc_text p{
-      font-size: 16px;  
-    }
+   
   
     .mie_ride_about .main_title_line p{
       font-size: 12px; 
@@ -214,7 +204,7 @@ section {
     position: relative;
     z-index: 3;
     padding: 10px;
-    font-family: 'NexaBold';
+    font-family: 'NexaLight';
  
 }
  .mie_ride_service .main_title_line{
@@ -667,8 +657,7 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
       padding: 0px 10px;
       background-color: #f9f9f9;
       border-radius: 30px;
-      
-     
+      font-family: 'NexaLight';
   }
   
   .mie_ride_service  .mie_ride_service_right_main_image{
@@ -835,13 +824,14 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
    
 
     @media screen and (max-width:991px) {
-        /* .main_banner {
-          padding-top: 30px;
-          padding-bottom: 40px;
-      } */
-
+    
+      .mie_ride_banner{
+       height: 100%;
+      }
       .banner_main {
-        margin-top: 0px;
+        margin-top: 100px;
+        padding-top: 10px;
+        padding-bottom: 70px;
     }
         .logo_section{
           padding: 10px;
@@ -851,6 +841,9 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
       }
       .banner_main #BannerIndicators .carousel-indicators {
         padding: 0px 10px;
+      }
+      .mie_ride_service{
+        height: 100%;
       }
        .mie_ride_service .main_title_line p {
             margin-top: 20px;
@@ -863,9 +856,10 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
           padding-bottom: 100px;
           
       }
-      /* .mie_ride_service .mie_ride_service_left_main {
-        margin-top: 290px;
-      } */
+      .mie_ride_service .main_title_line {
+        padding: 0px 0px;
+        margin-top: 80px;
+    }
       .mie_ride_service .mie_ride_service_right_main  .mie_ride_service_right_main_2{
         margin-top: 0px;
        }
@@ -884,8 +878,9 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
 
 
 
- .mie_ride_benifits{
-        width: 100%;
+     .mie_ride_benifits{
+        
+        font-family: 'NexaLight';
         
         }
     
@@ -1188,6 +1183,10 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
      }
     
     @media screen and (max-width:991px) {
+    
+      .mie_ride_benifits{
+        height: 100%;
+      } 
  .mie_ride_benifits .benifits_row_one_2{
         margin-top: 0px;
       }
@@ -1304,6 +1303,7 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
 
 
   .mie_ride_features{
+    font-family: 'NexaLight';
       padding: 70px 0px;
       background-image: -moz-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
       background-image: -webkit-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
@@ -1385,14 +1385,22 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
     }
    
     @media screen and (max-width:991px) {
-    
+      .mie_ride_features{
+        height: 100%;
+      }
    .mie_ride_features .mie_ride_features_desc h4{
     margin-top: 30px;
       font-size: 14px;
     }
    .mie_ride_features .mie_ride_features_desc {
       padding: 0px 0px;
-    }        
+    }  
+    
+    .mie_ride_features .notebook2 {
+      width: 100%;
+      height: 400px;
+    
+  }
    
     }
     
@@ -1403,8 +1411,8 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
         top: 20px;
       }
      .mie_ride_features .notebook2 ul li {
-        font-size: 16px; 
-        line-height: 25px;
+      font-size: 15px;
+      line-height: 20px;
       }
     }
   
