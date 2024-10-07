@@ -835,10 +835,10 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
    
 
     @media screen and (max-width:991px) {
-        .main_banner {
+        /* .main_banner {
           padding-top: 30px;
           padding-bottom: 40px;
-      }
+      } */
         .logo_section{
           padding: 10px;
         }
