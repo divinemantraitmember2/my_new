@@ -2099,8 +2099,9 @@ font-family: "NexaLight";
   }
   .mie_ride_contact .contact-form .contact-form-title p{
     margin: 10px 0px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 300;
+    text-align: center;
   }
 }
 
