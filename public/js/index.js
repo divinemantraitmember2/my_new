@@ -115,37 +115,14 @@ window.addEventListener('resize', function() {
   });
 
 
-
-// Get the button:
-// let mybutton = document.getElementById("service_myBtn");
-
-// When the user scrolls down 20px from the top of the document, show the button
-// window.onscroll = function() {scrollFunction()};
-
-// function scrollFunction() {
-//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//     mybutton.style.display = "block";
-//   } else {
-//     mybutton.style.display = "none";
-//   }
-// }
-
-
-
-    //  let header=document.getElementById("header");
-    //  let mie_ride_banner=document.getElementById("mie_ride_banner");
-    //  let main=document.getElementById("main");
-     let splash_screen=document.getElementById("splash-screen");
     document.getElementById('toggleButton').addEventListener('click', function() {
+      
         setTimeout(() =>{
-          splash_screen.style.display="none";
-          header.style.display="block";
-          mie_ride_banner.style.display="block";
-          main.style.display="block";
+              swipeArea.remove()
+              header_main.style.display="block";      
         },500);
 
     });
-
 
 
 
