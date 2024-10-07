@@ -5,12 +5,11 @@
 }
 
 body, html {
-    height: 100%;
     font-family: Arial, sans-serif;
 }
 
 section {
-    height: 100vh; /* Full screen height */
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,10 +64,7 @@ section {
 
 
 .mie_ride_banner{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   background-image: -moz-linear-gradient( -89deg, rgba(71,75,85,0.99608) 0%, rgb(71,75,85) 0%, rgb(57,60,67) 40%, rgb(22,22,22) 100%);
   background-image: -webkit-linear-gradient( -89deg, rgba(71,75,85,0.99608) 0%, rgb(71,75,85) 0%, rgb(57,60,67) 40%, rgb(22,22,22) 100%);
   background-image: -ms-linear-gradient( -89deg, rgba(71,75,85,0.99608) 0%, rgb(71,75,85) 0%, rgb(57,60,67) 40%, rgb(22,22,22) 100%);
@@ -181,22 +177,18 @@ section {
   }
 
   .mie_ride_service{
-    padding: 60px 0px;
     background-image: -moz-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
   background-image: -webkit-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
   background-image: -ms-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
 
   }
-  .main_ride_service{
-    margin-top: 40px;
-  
-  }
+ 
 
   
  .mie_ride_service .mie_ride_service_left_main{
     width:100%;
     margin-top: 40px;
-    /* background-color: #f9f9f9; */
+    padding:  40px 0px;  
     position: relative;
     z-index: 3;
     padding: 10px;
@@ -250,18 +242,16 @@ font-size: 20px;
     display: none;
     padding: 40px 10px;
     color: #fff;
+  
   }
 
   /* When section is active, show the description */
 .mie_ride_service .activeservice .description{
   display: block;
   overflow: hidden;
-  height: 150px;
-  -webkit-transition: height 1.5s linear;
--moz-transition: height 1.5s linear;
--ms-transition: height 1.5s linear;
--o-transition: height 1.5s linear;
-transition: height 1.5s linear;
+  /* height: 100px; */
+  position: relative;
+ 
   
   }
 
@@ -840,11 +830,13 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
           }
       
      .main_ride_service {
-        margin-top: 60px;
+           height: 100%;
+          padding-bottom: 100px;
+          
       }
-      .mie_ride_service .mie_ride_service_left_main {
+      /* .mie_ride_service .mie_ride_service_left_main {
         margin-top: 290px;
-      }
+      } */
       .mie_ride_service .mie_ride_service_right_main  .mie_ride_service_right_main_2{
         margin-top: 0px;
        }
@@ -1198,6 +1190,10 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
         margin-left: 9px;
         min-height:100px;
       }
+      .mie_ride_benifits .benifits_row_one .benifits_row_colum .number_icon_title_up p {
+        line-height: 13px;
+        font-size: 10px;
+    }
  .mie_ride_benifits .benifits_row_one .benifits_row_colum_up_2 .number_icon_2{
         padding: 5px;
       }
@@ -1246,6 +1242,11 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
         margin-top:0px;
         line-height: 10px;
       }
+      .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver_up_2 .number_icon_title_up p {
+        
+        line-height: 13px;
+        font-size: 10px;
+    }
  .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver_up_2 .number_icon_2{
         padding: 5px;
       }
