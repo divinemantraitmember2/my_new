@@ -74,24 +74,24 @@ if(window.innerWidth <= 768){
            
              <div class="carousel-inner " >
                <div class="carousel-item mobile_banner active" id="divice-phone">
-                 <img src="./public/assets/banners/phone11.jpeg" class="d-block w-100" alt="First slide m">
+                 <img src="./public/assets/banners/1.png" class="d-block w-100" alt="First slide m">
                </div>
                <div class="carousel-item mobile_banner">
-                 <img src="./public/assets/banners/phone2.png" class="d-block w-100" alt="Second slide m">
+                 <img src="./public/assets/banners/2.png" class="d-block w-100" alt="Second slide m">
                </div>
                <div class="carousel-item mobile_banner">
-                 <img src="./public/assets/banners/phone3.png" class="d-block w-100" alt="Third slide m">
+                 <img src="./public/assets/banners/3.png" class="d-block w-100" alt="Third slide m">
                </div>
 
                <div class="carousel-item mobile_banner">
-                 <img src="./public/assets/banners/phone4.png" class="d-block w-100" alt="Third slide m">
+                 <img src="./public/assets/banners/4.png" class="d-block w-100" alt="Third slide m">
                </div>
 
                 <div class="carousel-item mobile_banner">
-                 <img src="./public/assets/banners/phone5.png" class="d-block w-100" alt="Third slide m">
+                 <img src="./public/assets/banners/5.png" class="d-block w-100" alt="Third slide m">
                </div>
                 <div class="carousel-item mobile_banner">
-                 <img src="./public/assets/banners/phone6.png" class="d-block w-100" alt="Third slide m">
+                 <img src="./public/assets/banners/6.png" class="d-block w-100" alt="Third slide m">
                </div>
 
              </div>
