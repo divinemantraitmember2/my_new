@@ -1182,9 +1182,9 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
     
     @media screen and (max-width:991px) {
     
-      .mie_ride_benifits{
+      /* .mie_ride_benifits{
         height: 100%;
-      } 
+      }  */
  .mie_ride_benifits .benifits_row_one_2{
         margin-top: 0px;
       }
