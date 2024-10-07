@@ -1901,6 +1901,209 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
     }
     
      
+    .mie_ride_contact {
+      background-color: #f9f9f9;
+      
+    }
+
+   
+    
+  
+    .mie_ride_contact h4{
+      margin-top: 30px;
+      font-size: 20px;
+      font-family: "NexaLight";
+      color: rgb(0, 0, 0);
+      text-transform: uppercase;
+      text-align: center;
+      letter-spacing: 5px;
+    }
+    .mie_ride_contact .contact_row{
+      margin-top: 60px;
+      font-family: "Nexabold";
+    }
+    .mie_ride_contact .contact-form .form_btn{
+      display: flex;
+      justify-content: space-between;
+
+    }
+    .mie_ride_contact .contact-form .Send_Message{
+      width: 45%;
+           }
+           .mie_ride_contact .contact-form .OR{
+             width: 10%;
+             text-align: center;
+             font-weight: bold;
+              }
+                  .mie_ride_contact .contact-form .Chart_Message{
+                   width: 45%;
+                        }
+
+           .mie_ride_contact .contact-form textarea{
+             min-height: 150px;
+           }
+
+    .mie_ride_contact .contact-form .Send_Message_btn{
+      background-color:#212022 ;
+      width: 100%;
+      padding: 5px;
+      font-family: "NexaBold";
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+      font-size: 13px;
+
+    }
+   
+    
+    .mie_ride_contact .contact-form ::placeholder {
+      color: #828282;
+      font-weight: 500;
+      font-size: 13px;
+      font-family: "NexaBold";
+      color: rgba(0, 0, 0, 0.478);
+      text-transform: uppercase;
+    }
+    .mie_ride_contact .contact-form .Chart_Message_btn a{
+      text-decoration: none;
+      color: #fff;
+
+    }
+
+    
+    .mie_ride_contact .contact-form .Chart_Message_btn{
+      background-color:#212022 ;
+      font-weight: 500;
+      width: 100%;
+      padding: 5px;
+      font-family: "NexaBold";
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+      font-size: 13px;
+
+    }
+  
+    
+
+.mie_ride_contact .contact_row .social_media{
+  width: 100%;
+  text-align: center;
+}
+.mie_ride_contact .contact_row .social_media{
+  margin-top: -25px;
+
+}
+.mie_ride_contact .contact_row .social_media a{
+  text-decoration: none;
+  color: rgb(255, 255, 255); 
+}
+.mie_ride_contact .contact_row .social_media img{
+  width:30px;
+  height: 30px;
+ margin-top:40px;
+}
+
+.mie_ride_contact .contact_our_mission .contact_our_mission_section img{
+  max-height: 260px;
+  min-height: 200px;
+}
+.mie_ride_contact .contact_our_mission .contact_our_mission_section h3{
+  text-transform:uppercase;
+  font-weight: 500;
+  font-size: 13px;
+  margin-top: 10px;
+  letter-spacing: 3px;
+}
+.mie_ride_contact .contact_our_mission .contact_our_mission_section{
+  border:1.5px solid #434650;
+  display: flex;
+  box-sizing: border-box;
+  max-height: 260px;
+  min-height: 200px;
+  overflow: hidden;
+}
+
+.mie_ride_contact .contact_our_mission .contact_our_mission_details{
+  padding: 10px;
+  
+}
+.mie_ride_contact .contact_our_mission .contact_our_mission_details p{
+  font-size: 14px;
+  padding-top: 25px;
+  font-weight: 500;
+  text-align: center;
+  font-family: "NexaBold";
+  color: rgb(0, 0, 0);
+}
+
+.mie_ride_contact .contact_form_left .icon_text{
+margin-left: 40px;
+color: #000;
+}
+.mie_ride_contact .contact_form_left span{
+  margin-left: 20px;
+  color: #828282;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+
+.mie_ride_contact .contact-form p{
+font-size: 15px;
+letter-spacing: 2px;
+font-family: "NexaLight";
+  color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width:991px) {
+  .mie_ride_contact{
+    height: 100%;
+  }
+  .mie_ride_contact {
+    padding: 40px 10px;
+    
+  }
+  .mie_ride_contact .contact_form_left{
+  margin-top: -30px;
+  }
+  main .mie_ride_download .mie_ride_download_title {
+    margin-top: 30px;
+  }
+  
+  .mie_ride_contact .contact-form p {
+    font-size: 13px;
+  }
+  .mie_ride_contact .contact_form_left .icon_text{
+    margin-left:0px;
+    font-size: 11px;
+    margin-top: 10px;
+    }
+    .mie_ride_contact .contact_form_left span{
+      margin-left:1px;
+      font-weight: 300;
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+  .mie_ride_contact .contact_row .social_media{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .mie_ride_contact .contact_our_mission .contact_our_mission_details p{
+    font-size: 12px;
+    text-align:justify;
+    overflow: hidden;
+    padding-top:5px;
+  }
+  .mie_ride_contact .contact_row{
+    flex-direction:column-reverse;
+  }
+  .mie_ride_contact .contact-form .contact-form-title p{
+    margin: 10px 0px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
+
 
 
 #contact {
