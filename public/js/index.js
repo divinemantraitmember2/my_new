@@ -74,7 +74,7 @@ if(window.innerWidth <= 768){
            
              <div class="carousel-inner " >
                <div class="carousel-item mobile_banner active" id="divice-phone">
-                 <img src="./public/assets/banners/phone1.png" class="d-block w-100" alt="First slide m">
+                 <img src="./public/assets/banners/phone11.png" class="d-block w-100" alt="First slide m">
                </div>
                <div class="carousel-item mobile_banner">
                  <img src="./public/assets/banners/phone2.png" class="d-block w-100" alt="Second slide m">

@@ -4,9 +4,25 @@
     box-sizing: border-box;
 }
 
-body, html {
-    font-family: Arial, sans-serif;
+@font-face {
+  font-family: 'NexaBold';
+  src: url('./public/fonts/font-used/nexa-bold.otf') format('opentype');
+  font-weight: bold;
 }
+
+@font-face {
+  font-family: 'NexaLight';
+  src: url('./public/fonts/font-used/nexa-light.otf') format('opentype'); /* OpenType font */
+  font-weight: normal;
+}
+
+body {
+  font-family: "NexaLight",
+}
+
+/* h1, h2, h3, h4, h5 {
+  font-family: 'NexaBold',
+} */
 
 section {
     height: 100vh;
@@ -104,34 +120,40 @@ section {
     padding-top: 20px;
     padding-bottom: 20px;
    }
+   
    .mie_ride_about .main_title_line h4{
-    color: #646464;
+    font-size: 25px;
+    font-family: "NexaLight";
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight:300;  
-    font-size: 20px;
-
+    text-align: center;
+    letter-spacing: 5px;
+   
  }
  .mie_ride_about .main_title_line p{
-    color: #646464;
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-top: 20px;
-    font-size: 13px;
-
+    font-size: 14px;
+    font-family: "NexaBold";
+    color: rgba(0, 0, 0, 0.902);
  }
 
  .mie_ride_about_desc{
     margin-top: 20px;
     background-color: rgb(255, 198, 29);
   }
+  
+  
+  
   .mie_ride_about_desc .mie_ride_about_desc_text p{
-    padding: 20px;
-    font-size: 18px;
-    letter-spacing: 2px;
+    padding: 25px;
+    letter-spacing: 1px;
     text-align: center;
     line-height: 30px;
-    color: #212022;
+    font-size: 13px;
+    font-family: "NexaBold";
+    color: rgba(0, 0, 0, 0.902);
       
   }
   .mie_ride_about_desc .mie_ride_about_desc_text{
@@ -192,6 +214,7 @@ section {
     position: relative;
     z-index: 3;
     padding: 10px;
+    font-family: 'NexaBold';
  
 }
  .mie_ride_service .main_title_line{
@@ -199,10 +222,12 @@ section {
 }
 
 .mie_ride_service .main_title_line h4{
-color: rgb(255, 255, 255);
-letter-spacing: 2px;
-font-weight:300;  
-font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: "NexaLight";
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
 
 }
  .mie_ride_service .main_title_line p{ 
@@ -865,10 +890,12 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
      }
 
    .mie_ride_benifits .mie_ride_benifits_title h4{
-          letter-spacing: 2px;
-           font-weight:300;  
-             font-size: 20px;
-          color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: "NexaLight";
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
           
         }
     
@@ -1000,6 +1027,7 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
         justify-content: start;
         align-items: end;
         padding: 0px 5px;
+        font-family: 'NexaBold';
         
     }
 
@@ -1019,7 +1047,7 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
       align-items: end;
       justify-content: start;
       padding: 0px 5px;
-     
+      font-family: 'NexaBold';
     }
   .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver .number_icon_title p{
       color: #000;
@@ -1272,7 +1300,7 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
 
 
   .mie_ride_features{
-    padding: 70px 0px;
+      padding: 70px 0px;
       background-image: -moz-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
       background-image: -webkit-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
       background-image: -ms-linear-gradient( -89deg, rgb(22,22,22) 0%, rgb(57,60,67) 72%, rgb(71,75,85) 100%, rgba(71,75,85,0.99608) 100%);
@@ -1280,11 +1308,12 @@ box-shadow: 2px 3px 16px -10px rgba(66, 68, 90, 1);
     }
 
   .mie_ride_features .main_title_line h4{
-       letter-spacing: 3px;
-       font-weight: 400;
-       font-size: 18px;
-       font-family: "NexaLight";
-       color: rgb(255, 255, 255);     
+    font-size: 25px;
+    font-family: "NexaLight";
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);     
     }
 
   .mie_ride_features .mie_ride_features_desc h4{
