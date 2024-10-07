@@ -2070,13 +2070,21 @@ font-family: "NexaLight";
   }
   
   .mie_ride_contact .contact-form p {
-    font-size: 13px;
+    font-size: 14px;
+        text-align: center;
+        margin-bottom: 10px;
   }
   .mie_ride_contact .contact_form_left .icon_text{
     margin-left:0px;
     font-size: 11px;
     margin-top: 10px;
     }
+    .mie_ride_contact .contact_our_mission .contact_our_mission_section h3 {
+      text-transform: uppercase;
+      font-weight:0;
+      font-size: 11px;
+      
+  }
     .mie_ride_contact .contact_form_left span{
       margin-left:1px;
       font-weight: 300;
@@ -2090,12 +2098,13 @@ font-family: "NexaLight";
   }
   .mie_ride_contact .contact_our_mission .contact_our_mission_details p{
     font-size: 12px;
-    text-align:justify;
+    text-align:center;
     overflow: hidden;
     padding-top:5px;
   }
   .mie_ride_contact .contact_row{
     flex-direction:column-reverse;
+    margin-left: 0px;
   }
   .mie_ride_contact .contact-form .contact-form-title p{
     margin: 10px 0px;
