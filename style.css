@@ -735,16 +735,17 @@ padding: 20px;
   }
 .mie_ride_service .mie_ride_service_right_main .mie_ride_service_right_main_2 .mie_ride_service_right_2 .service_icon_text p{
     position: absolute;
-    left: 30px;
+    /* left: 30px; */
     font-size: 18px;
     top: 50px;
     color: #6c6c6c;
   
   }
 .mie_ride_service .mie_ride_service_right_main .mie_ride_service_right_main_2 .mie_ride_service_right_2  .description{
-    padding: 100px 10px;
-    font-size: 14px;
-    margin-top: -70px;
+  padding: 50px 10px;
+  font-size: 14px;
+  margin-top: -45px;
+    color: #000;
   }
   
 
@@ -811,7 +812,7 @@ padding: 20px;
   }
  .mie_ride_service .mie_ride_service_right_main .mie_ride_service_right_main_3 .mie_ride_service_right_3 .service_icon_text p{
     position: absolute;
-    left: 30px;
+    /* left: 30px; */
     font-size: 18px;
     top: 55px;
     color: #fff;
@@ -1361,7 +1362,7 @@ padding: 20px;
     overflow: hidden;
   }
   
-
+  
   /* Optionally, you can add this class to darken only specific notebooks */
 .mie_ride_features .notebook4 {
     filter: brightness(0.9);
