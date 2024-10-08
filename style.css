@@ -1386,8 +1386,9 @@ padding: 20px;
   }
   
 .mie_ride_features .notebook2 ul li {
-    line-height: 25px;
-    font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 20px;
+  font-size: 13px;
     list-style-type: none;
   }
   
@@ -1438,7 +1439,7 @@ padding: 20px;
       top: 20px;
     }
    .mie_ride_features .notebook2 ul li {
-    font-size: 15px;
+    font-size: 12px;
     line-height: 20px;
     }
   }
