@@ -2093,6 +2093,9 @@ main .mie_ride_download .mie_ride_download_title {
       text-align: center;
       margin-bottom: 10px;
 }
+.mie_ride_contact .contact-form .Send_Message_btn{
+padding: 10px;
+}
 .mie_ride_contact .contact_form_left .icon_text{
   margin-left:0px;
   font-size: 11px;
