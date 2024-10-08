@@ -1295,7 +1295,7 @@ padding: 20px;
     }
     .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver_up_2 .number_icon_title_up p {
       
-      line-height: 13px;
+      line-height: 10px;
       font-size: 10px;
   }
 .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver_up_2 .number_icon_2{
@@ -1522,8 +1522,10 @@ padding: 20px;
    }
    .mie_ride_advertise .left_text_box .up_box p{
      color: #000;
-     font-weight: 300;
-    font-size: 13px;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'NexaLight';
    }
    .mie_ride_advertise .left_text_box .up_box .up_box_hand{
      position: absolute;
@@ -1531,11 +1533,7 @@ padding: 20px;
      bottom: -10px;
    }
    
-   .mie_ride_advertise .left_text_box .up_box p {
-    padding: 10px;
-    font-size: 13px;
-    text-align: center;
-   }
+   
    .mie_ride_advertise .iphone_details .hand_icon img{
      position: relative;
      margin-top: -12px;

@@ -12,6 +12,36 @@
   <meta name="country" Content="India" />   
 </head>
 <body>
+
+  <section id="splash-screen"  class="splash_screen" onclick="swapDivsBack()" >
+    <div class="row">
+      <div class="col-md-10 mx-auto">
+        <div class="main_splash_screen swipe-content" id="swipe-content">
+          <div class="">
+            <div class="miefinal">
+              <img src="./public/assets/icons/miefinal.png" class="img-fluid" alt="find">
+            </div>
+            <div class="welcome_message">
+              <p>welcome to mie ride</p>
+            </div>
+            <div class="main_splash_screen_details">
+              <p>Your advanced, fixed-price ride solution for travelers, students, and professionals.
+                 Our unique ride-sharing platform connects passengers with drivers heading the same way, offering a more affordable, efficient, and environmentally-friendly mode of transportation.
+                 Whether you’re looking for a shared ride, a personal trip, or even a quick airport transfer, we’ve got you covered!</p>
+
+            </div>
+            <div class="scroll_imag " id="toggleButton">
+              <img src="./public/assets/icons/scroll.png" class="img-fluid">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class=" w-100 bg-light" style="height:2vh;" id="splash_screen_bottom">
+  </div>
+  
      <div class="w-100 p-0 m-0"  id="header_main" style="display:none;">
       <header class="w-100 header " id="header" >
         <div class="main-header p-0 m-0">
@@ -687,9 +717,9 @@
                 <div class="col-md-4 col-4  iphone_details_colum">
                  <div class="main_iphone">
                    <div class="iphone_image d-block d-md-none">
-                     <img src="./public/assets/icons/iphone2.png" alt="iphone_image" class="img-fluid">
+                     <img src="./public/assets/icons/iphone3.png" alt="iphone_image" class="img-fluid">
                    </div>
-                    <div class="iphone_details mb-4">
+                    <div class="iphone_details mb-3">
                       <div class="iphone_details_below"></div>
                       <div class="iphone_details_up">
                        <div class="text-end hand_icon">
@@ -707,7 +737,7 @@
                       </div>
                     </div>
                     <div class="iphone_image d-none d-lg-block">
-                      <img src="./public/assets/icons/iphone2.png" alt="iphone_image" class="img-fluid">
+                      <img src="./public/assets/icons/iphone3.png" alt="iphone_image" class="img-fluid">
                     </div>
                  </div>
                  
@@ -716,7 +746,7 @@
                 <div class="col-md-4 col-4">
                   <div class="main_iphone">
                    <div class="iphone_image">
-                     <img src="./public/assets/icons/iphone3.png" alt="iphone_image" class="img-fluid">
+                     <img src="./public/assets/icons/iphone2.png" alt="iphone_image" class="img-fluid">
                    </div>
                    <div class="iphone_details">
                      <div class="iphone_details_below"></div>
@@ -745,7 +775,7 @@
                    <div class="iphone_image d-block d-md-none">
                      <img src="./public/assets/icons/iphone4.png" alt="iphone_image" class="img-fluid">
                    </div>
-                    <div class="iphone_details mb-4">
+                    <div class="iphone_details mb-3">
                       <div class="iphone_details_below"></div>
                       <div class="iphone_details_up">
                        <div class="text-end hand_icon">
@@ -1076,36 +1106,7 @@
      </section>
      </div>
     
-
-     <div id="splash-screen"  class="splash_screen" onclick="swapDivsBack()" >
-    <div class="row">
-      <div class="col-md-10 mx-auto">
-        <div class="main_splash_screen swipe-content" id="swipe-content">
-          <div class="">
-            <div class="miefinal">
-              <img src="./public/assets/icons/miefinal.png" class="img-fluid" alt="find">
-            </div>
-            <div class="welcome_message">
-              <p>welcome to mie ride</p>
-            </div>
-            <div class="main_splash_screen_details">
-              <p>Your advanced, fixed-price ride solution for travelers, students, and professionals.
-                 Our unique ride-sharing platform connects passengers with drivers heading the same way, offering a more affordable, efficient, and environmentally-friendly mode of transportation.
-                 Whether you’re looking for a shared ride, a personal trip, or even a quick airport transfer, we’ve got you covered!</p>
-
-            </div>
-            <div class="scroll_imag " id="toggleButton">
-              <img src="./public/assets/icons/scroll.png" class="img-fluid">
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
+    
 
      <script>
       let startX = 0;
@@ -1113,6 +1114,7 @@
       let isSwiping = false;
     
          let header_main=document.getElementById("header_main")
+         let splash_screen_bottom=document.getElementById("splash_screen_bottom")
          const swipeArea = document.getElementById('splash-screen');
          const swipeContent = document.getElementById('swipe-content');
     
@@ -1143,12 +1145,19 @@
           if (Math.abs(deltaX) > 50) {
               if (deltaX > 0) {
     swipeArea.style.opacity="0.6"
-    setTimeout(()=>{swipeArea.remove()},500)  
+    setTimeout(()=>{
+      swipeArea.remove()
+      splash_screen_bottom.remove()
+    },500)  
     setTimeout(() =>{ header_main.style.display="block";},600);
                
               } else {
       swipeArea.style.opacity="0.6"
-    setTimeout(()=>{swipeArea.remove()},500)  
+    setTimeout(()=>{
+      swipeArea.remove()
+      splash_screen_bottom.remove()
+      
+    },500)  
     setTimeout(() =>{ header_main.style.display="block";},600);
              
               }
