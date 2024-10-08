@@ -217,4 +217,23 @@ postData(enquiry_obj)
   }
   
   
+  let splashscreent=document.getElementById("splash-screen");
   
+
+function checkScrollPosition() {
+
+  if (window.scrollY === 0 || document.documentElement.scrollTop === 0) {
+  
+  } else {
+    if(splashscreent !=null){
+     setTimeout(()=>{
+      splashscreent.remove()
+      splash_screen_bottom.remove()  
+     },500)
+     setTimeout(() =>{ header_main.style.display="block";},600);
+    }
+   
+  }
+}
+
+window.addEventListener('scroll', checkScrollPosition);
