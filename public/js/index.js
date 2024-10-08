@@ -116,15 +116,16 @@ window.addEventListener('resize', function() {
 
 
     document.getElementById('toggleButton').addEventListener('click', function() {
-      
-        setTimeout(() =>{
-              swipeArea.remove()
-              header_main.style.display="block";      
-        },500);
-
+    swipeArea.style.opacity="0.6"
+    setTimeout(()=>{swipeArea.remove()},500)  
+    setTimeout(() =>{ header_main.style.display="block";},600);
     });
 
-
+    function swapDivsBack() {
+      swipeArea.style.opacity="0.6"
+      setTimeout(()=>{swipeArea.remove()},500)  
+      setTimeout(() =>{ header_main.style.display="block";},600);  
+  }
 
     function Enquiry(){
       let First_Name=document.getElementById("First_Name");

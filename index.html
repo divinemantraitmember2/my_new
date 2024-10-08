@@ -12,7 +12,7 @@
   <meta name="country" Content="India" />   
 </head>
 <body>
-     <div class="w-100 p-0 m-0"  id="header_main" style="display: none;">
+     <div class="w-100 p-0 m-0"  id="header_main" style="display:none;">
       <header class="w-100 header " id="header" >
         <div class="main-header p-0 m-0">
             <div class='main_navbar p-0 m-0'>
@@ -123,7 +123,7 @@
    
   </section> 
 
-  <section id="services" class="mie_ride_service w-100">
+ <section id="services" class="mie_ride_service w-100">
     <div class="p-0 m-0 w-100">
       <div class="row p-0 m-0 w-100">
         <div class="col-md-11 mx-auto">
@@ -133,7 +133,7 @@
           </div>
         <div class="main_ride_service">
           <div class="row">
-            <div class="col-md-10 mx-auto">
+            <div class="col-md-10 col-11 mx-auto">
               <div class="row">
                 <div class="col-md-5 mx-auto">
 
@@ -283,7 +283,7 @@
     </section>
 
 
-    <section  id="benefits" class="mie_ride_benifits w-100">
+       <section  id="benefits" class="mie_ride_benifits w-100">
        <div class="w-100">
         <div class="row p-0 m-0 w-100">
             <div class="col-md-11 mx-auto ">
@@ -313,12 +313,12 @@
                        </div>
                        <div class="col-md-3  col-3">
                          <div class="benifits_row_colum_main">
-                           <div class=" benifits_row_colum benifits_row_colum_bellow_2">
+                           <div class=" benifits_row_colum benifits_row_colum_bellow_2  colum_bellow_2">
                              <div class="number_icon">
                               <b>02</b>
                              </div>
                             </div>
-                            <div class=" benifits_row_colum benifits_row_colum_up_2">
+                            <div class=" benifits_row_colum benifits_row_colum_up_2 colum_up_2">
                               <div class="number_icon_2">
                                <img src="./public/assets/icons/circul.png" class="img-fluid" alt="one">
                               </div>
@@ -537,17 +537,16 @@
     
     <section  id="features"  class="mie_ride_features w-100">
       <div class="row p-0 m-0 w-100">
-          <div class="col-md-11 mx-auto">
+          <div class="col-md-11  mx-auto">
               <div class="text-center text-title main_title_line ">
                   <h4 class="text-uppercase">Features</h4>
-
               </div>
 
               <div class="mie_ride_features_desc w-100">
                   <div class="row w-100">
                       <div class="col-md-4  mx-lg-auto " >
                         <div class="row p-0 m-0">
-                          <div  class="col-md-11 col-10 p-0 m-0 ml-auto ">
+                          <div  class="col-md-11 col-10 p-0 m-0 mx-lg-auto ml-auto ">
                             <div class="">
                               <h4 class="text-center text-white text-uppercase">Users</h4>
                             </div>
@@ -570,7 +569,7 @@
                       </div>
                       <div class="col-md-4 mx-lg-auto">
                         <div class="row p-0 m-0">
-                          <div class="col-md-11 col-10 p-0 m-0 ms-auto ">
+                          <div class="col-md-11 col-10 p-0 m-0 mx-lg-auto ms-auto ">
                             <div class="">
                               <h4 class="text-center text-white text-uppercase">Shared</h4>
                             </div>
@@ -592,7 +591,7 @@
                       </div>
                       <div class="col-md-4 mx-lg-auto ">
                         <div class="row p-0 m-0">
-                          <div class="col-md-11 col-10 p-0 m-0 ml-auto">
+                          <div class="col-md-11 col-10 p-0 m-0 mx-lg-auto ml-auto">
                             <div class="">
                               <h4 class="text-center text-white text-uppercase">Driver</h4>
                             </div>
@@ -1050,7 +1049,7 @@
      </div>
     
 
-     <div id="splash-screen"  class="splash_screen">
+     <div id="splash-screen"  class="splash_screen" onclick="swapDivsBack()" >
     <div class="row">
       <div class="col-md-10 mx-auto">
         <div class="main_splash_screen swipe-content" id="swipe-content">
@@ -1115,14 +1114,14 @@
     
           if (Math.abs(deltaX) > 50) {
               if (deltaX > 0) {
-
-              swipeArea.remove()
-              header_main.style.display="block"; 
+    swipeArea.style.opacity="0.6"
+    setTimeout(()=>{swipeArea.remove()},500)  
+    setTimeout(() =>{ header_main.style.display="block";},600);
                
               } else {
-
-               swipeArea.remove()
-              header_main.style.display="block"; 
+      swipeArea.style.opacity="0.6"
+    setTimeout(()=>{swipeArea.remove()},500)  
+    setTimeout(() =>{ header_main.style.display="block";},600);
              
               }
           }
