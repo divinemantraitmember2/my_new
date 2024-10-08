@@ -1179,11 +1179,11 @@ padding: 20px;
 
   @media screen and (max-width:991px) {
       .mie_ride_benifits .benifits_row_one .user_text_section img {
-             height: 90px;
+             height: 130px;
          }
          
       .mie_ride_benifits .benifits_row_one .driver_text_section img {
-           height: 90px;
+           height: 130px;
          }
    }
   
