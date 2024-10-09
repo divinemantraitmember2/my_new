@@ -122,9 +122,6 @@ height: 2px;
   /* height: 100vh; */
   }
 
-.mie_ride_about{
-  background-color: #f9f9f9;
-}
 .mie_ride_about .main_title_line{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -173,8 +170,8 @@ height: 2px;
 @media screen and (max-width:991px) {
   
   .mie_ride_about{ 
-    padding-top: 40px;
-    padding-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 50px;
     }
     .mie_ride_about_desc .mie_ride_about_desc_text p {
       padding: 10px;
