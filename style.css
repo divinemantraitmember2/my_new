@@ -25,15 +25,21 @@ section {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
-  
+  align-items: center;  
 }
 
 body{
   scroll-behavior: smooth;
   font-family: "NexaLight";
+  box-sizing: border-box;
+  height: 100%;
 }
 
+@media screen and (max-width:1240px){
+  section {
+    height: 100%;  
+  }
+}
 
 .header{
   position: absolute;
@@ -738,7 +744,7 @@ padding: 5px;
     /* left: 30px; */
     font-size: 18px;
     top: 50px;
-    color: #6c6c6c;
+    color: #000;
   
   }
 .mie_ride_service .mie_ride_service_right_main .mie_ride_service_right_main_2 .mie_ride_service_right_2  .description{
@@ -995,7 +1001,7 @@ padding: 20px;
   }
 
   .mie_ride_benifits .benifits_row_colum_main  .benifits_row_colum_up_2 .number_icon_title_up{
-      height: 80px;
+      height: 95px;
       display: flex;
       justify-content: start;
       align-items: end;
@@ -1014,10 +1020,10 @@ padding: 20px;
     .mie_ride_benifits .benifits_row_one  .benifits_row_colum_up_2{
       position: relative;
       z-index: 2;
-      margin-top: -80px;
+      margin-top: -100px;
       margin-left: 8px;
       width: 95%;
-      min-height: 100px;
+      min-height: 140px;
         transform: rotate(10deg);
         box-shadow: 0px 5px 6px 2px rgba(0,0,0,0.1);  
       
@@ -1066,7 +1072,7 @@ padding: 20px;
 .mie_ride_benifits .benifits_row_one  .benifits_row_colum_bellow_2{
     position: relative;
     z-index: 1;
-    min-height: 120px;
+    min-height: 130px;
     transform: rotate(-2deg);
     width: 95%;
     background-color: #0b0b0b;
@@ -1119,7 +1125,7 @@ padding: 20px;
 .mie_ride_benifits .benifits_row_one  .benifits_row_colum_driver_bellow_2{
     position: relative;
     z-index: 1;
-    min-height: 120px;
+    min-height: 130px;
     transform: rotate(-2deg);
     width: 95%;
     background-color: #0b0b0b;
@@ -1147,16 +1153,16 @@ padding: 20px;
 .mie_ride_benifits .benifits_row_one  .benifits_row_colum_driver_up_2{
     position: relative;
     z-index: 2;
-    margin-top: -80px;
+    margin-top: -100px;
     margin-left: 8px;
     width: 95%;
-    min-height: 100px;
+    min-height: 140px;
     transform: rotate(10deg);
     box-shadow: 0px 5px 6px 2px rgba(0, 0, 0, 0.1);
   
   }
   .mie_ride_benifits .benifits_row_one .benifits_row_colum_driver_up_2 .number_icon_title_up{
-    height: 80px;
+    height: 90px;
    display: flex;
    justify-content: start;
   align-items: end;
@@ -1250,10 +1256,10 @@ padding: 20px;
   }
 
   .mie_ride_benifits .benifits_row_one .colum_bellow_2{
- height: 110px;
+ height: 120px;
   }
   .mie_ride_benifits .benifits_row_one .colum_up_2{
-    height: 110px;
+    height: 120px;
     margin-top: -85px;
   }
    .mie_ride_benifits .benifits_row_one .benifits_row_colum .number_icon img{
