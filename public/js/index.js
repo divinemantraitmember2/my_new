@@ -221,9 +221,7 @@ postData(enquiry_obj)
   
 
 function checkScrollPosition() {
-
   if (window.scrollY === 0 || document.documentElement.scrollTop === 0) {
-  
   } else {
     if(splashscreent !=null){
      setTimeout(()=>{
