@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mie Ride</title>
-  <link rel="stylesheet" type="text/css" href="./public/css/bootstrap.min.css"> 
-  <link rel="icon" type="image/x-icon" href="./public/assets/icons/favicon.png" />  
-  <link rel="stylesheet" type="text/css" href="./style.css"> 
+    <title>Mie Ride</title> 
   <meta name="identifier" Content="mie ride" />
   <meta name="coverage" Content="Global" />
-  <meta name="country" Content="India" />   
+  <meta name="country" Content="India" /> 
+  <link rel="stylesheet" type="text/css" href="./public/css/bootstrap.min.css"> 
+  <link rel="icon" type="image/x-icon" href="./public/assets/icons/favicon.png" />  
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!-- On scroll animations -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
 
-  <section id="splash-screen"  class="splash_screen" onclick="swapDivsBack()" >
+  <section id="splash-screen"  class="splash_screen" onclick="swapDivsBack()"  style="display: none ;">
     <div class="row">
       <div class="col-md-10 mx-auto">
         <div class="main_splash_screen swipe-content" id="swipe-content">
@@ -39,10 +41,10 @@
       </div>
     </div>
   </section>
-  <div class=" w-100 bg-light" style="height:2vh;" id="splash_screen_bottom">
+  <div class=" w-100 bg-light" style="height:2vh;" id="splash_screen_bottom"  style="display: none ;">
   </div>
   
-     <div class="w-100 p-0 m-0"  id="header_main" style="display:none;">
+     <div class="w-100 p-0 m-0"  id="header_main" style="display:block;">
       <header class="w-100 header " id="header" >
         <div class="main-header p-0 m-0">
             <div class='main_navbar p-0 m-0'>
@@ -119,10 +121,10 @@
     </div>
 </section>
 
-<section  id="about-us" class="mie_ride_about w-100">          
+<section  id="about-us" class="mie_ride_about w-100" data-aos="fade-up">          
     <div class="p-0 m-0">
-        <div class="row p-0 m-0">
-            <div class="col-md-11 col-11 mx-auto">
+        <div class="row p-0 m-0" data-aos="fade-up" >
+            <div class="col-md-11 col-11 mx-auto"  >
                 <div class="text-center main_title_line">
                 <h4 class=" text-uppercase">About Us</h4>
                 <p class="">"Your Advanced, Fixed-Price Ride Solution for Travelers, Students, and Professionals"</p>
@@ -132,7 +134,7 @@
     
         <div class="mie_ride_about_desc">
             <div class="row p-0 m-0">
-                <div class="col-md-9 col-11 mx-auto">
+                <div class="col-md-9 col-11 mx-auto" data-aos="zoom-out" data-aos-delay="200">
                     <div class="mie_ride_about_desc_text">
                       <p>
                         We are a fixed-price ride-sharing app company dedicated to reducing transportation costs and saving time for local commuters. 
@@ -153,11 +155,11 @@
    
   </section> 
 
- <section id="services" class="mie_ride_service w-100">
+ <section id="services" class="mie_ride_service w-100" data-aos="fade-up">
     <div class="p-0 m-0 w-100">
       <div class="row p-0 m-0 w-100">
         <div class="col-md-11 mx-auto">
-        <div class="text-center main_title_line">
+        <div class="text-center main_title_line" data-aos="fade-up" data-aos-delay="100">
           <h4 class="text-uppercase">services</h4>
           <p class="text-center text-uppercase">ride services we offer</p>
           </div>
@@ -165,7 +167,7 @@
           <div class="row">
             <div class="col-md-9 col-11 mx-auto">
               <div class="row">
-                <div class="col-md-5 mx-auto">
+                <div class="col-md-5 mx-auto" data-aos="zoom-in" data-aos-delay="250">
 
                   <div class="mie_ride_service_left_main">
                     <h4>User</h4>
@@ -184,7 +186,7 @@
                          <p class="title">Sharing</p>
                         </div>
                        <div class="description">
-                         Share a car with other passengers heading in the same direction.
+                        Book a seat by entering pickup and drop-off locations, selecting the date, time, and return options if needed. You can adjust drop-off points as well.
                        </div>
                      </div>
                      </div>
@@ -199,7 +201,7 @@
                            <img src="./public/assets/services/service3.png" class="img-fluid" alt="share_route Icon">
                          </div>
                          <div class="description">
-                           Share a car with other passengers heading in the same direction.
+                          Reserve an entire car by specifying pickup and drop-off locations, date, time, and the number of passengers (up to 6). Choose between a 4-seater or 6-seater car.
                          </div>
                        </div>
                        </div>
@@ -214,7 +216,7 @@
                             <img src="./public/assets/services/airplane.png" class="img-fluid" alt="Airport Icon">
                           </div>
                           <div class="description">
-                            Book a car for airport pickups and drop-offs with ease.  
+                            Select rides to or from the airport by choosing from dropdown options. Enter your address, date, time, and choose between a 4-seater or 6-seater car.  
                           </div>
                         </div>
                         </div>
@@ -229,7 +231,7 @@
                                 <img src="./public/assets/services/driving-test.png" class="img-fluid" alt="Airport Icon">
                               </div>
                               <div class="description">
-                                Schedule a car for a driving test appointment or lessons.  
+                                Book a car for your drive test by providing your source address, selecting the test location, and specifying the number of passengers. 
                               </div>
                             </div>
                             </div>
@@ -245,7 +247,7 @@
                                     <img src="./public/assets/services/location.png" class="img-fluid" alt="Intercity Icon">
                                   </div>
                                   <div class="description">
-                                    Book an intercity car for convenient travel between cities.
+                                    Choose your pickup and drop-off cities, select your spot, date, and time to book an inter-city ride.
                                   </div>
                                   </div>
                                  </div>
@@ -258,7 +260,7 @@
                   </div>
                  
                   </div>
-                  <div class="col-md-5 mx-auto">
+                  <div class="col-md-5 mx-auto" data-aos="zoom-in" data-aos-delay="250">
                       <div class="mie_ride_service_right_main">
                         <h4>Driver</h4>
 
@@ -275,7 +277,8 @@
                             
                            </div>
                            <div class="description">
-                             Share a car with other passengers heading in the same direction.
+                            Select your available date, source city, and time. Choose up to 5 cities you can cover. Submit your availability and 
+receive ride requests accordingly.
                            </div>
                          </div>
                          </div>
@@ -291,7 +294,7 @@
                               
                              </div>
                              <div class="description">
-                               Share a car with other passengers heading in the same direction.
+                              Enter your source and destination addresses, select date and time, and specify if it’s for reach or start time. Set seat availability and get assigned rides along your route.
                              </div>
                            </div>
                            </div>
@@ -313,22 +316,22 @@
     </section>
 
 
-       <section  id="benefits" class="mie_ride_benifits w-100">
+       <section  id="benefits" class="mie_ride_benifits w-100" data-aos="fade-up">
        <div class="w-100">
         <div class="row p-0 m-0 w-100">
             <div class="col-md-11  mx-auto ">
-              <div class="mie_ride_benifits_title ">
+              <div class="mie_ride_benifits_title " data-aos="fade-up">
                 <h4 class="text-center text-uppercase">benefits</h4>
               </div>
      
-              <div class="benifits_row_one benifits_row_one_1 ">
+              <div class="benifits_row_one benifits_row_one_1 " >
                 <div class="row benifits_row ">
                 <div class="col-md-10 ">
                  <div class="row">
-                   <div class="col-md-8">
+                   <div class="col-md-8" >
                      <div class="row">
-                       <div class="col-md-3  col-3">
-                         <div class=" benifits_row_colum benifits_row_colum_1">
+                       <div class="col-md-3  col-3" >
+                         <div class=" benifits_row_colum benifits_row_colum_1" data-aos="zoom-in" data-aos-delay="250">
                            <div class="number_icon">
                             <img src="./public/assets/icons/01.png" class="img-fluid" alt="one">
                            </div>
@@ -340,7 +343,7 @@
                           </div>
                        </div>
                        <div class="col-md-3  col-3">
-                         <div class="benifits_row_colum_main">
+                         <div class="benifits_row_colum_main" data-aos="zoom-in" data-aos-delay="250">
                            <div class=" benifits_row_colum benifits_row_colum_bellow_2  colum_bellow_2">
                              <div class="number_icon">
                               <b>02</b>
@@ -361,7 +364,7 @@
                          
                        </div>
                        <div class="col-md-3  col-3">
-                         <div class=" benifits_row_colum benifits_row_colum_1">
+                         <div class=" benifits_row_colum benifits_row_colum_1" data-aos="zoom-in" data-aos-delay="250">
                            <div class="number_icon">
                             <img src="./public/assets/icons/three.png" class="img-fluid" alt="one">
                            </div>
@@ -375,7 +378,7 @@
                           </div>
                        </div>
                        <div class="col-md-3  col-3">
-                         <div class=" benifits_row_colum benifits_row_colum_1">
+                         <div class=" benifits_row_colum benifits_row_colum_1" data-aos="zoom-in" data-aos-delay="250">
                            <div class="number_icon">
                             <img src="./public/assets/icons/four.png" class="img-fluid" alt="one">
                            </div>
@@ -391,10 +394,10 @@
                      </div>
    
                    </div>
-                   <div class="col-md-4">
+                   <div class="col-md-4" >
                      <div class="row ">
                        <div class="col-md-6 col-3 ">
-                         <div class=" benifits_row_colum benifits_row_colum_1">
+                         <div class=" benifits_row_colum benifits_row_colum_1" data-aos="zoom-in"  data-aos-delay="250">
                            <div class="number_icon">
                             <img src="./public/assets/icons/five.png" class="img-fluid" alt="one">
                            </div>
@@ -408,7 +411,7 @@
                           </div>
                        </div>
                        <div class="col-md-6 col-3 ">
-                         <div class=" benifits_row_colum benifits_row_colum_1">
+                         <div class=" benifits_row_colum benifits_row_colum_1" data-aos="zoom-in"  data-aos-delay="250">
                            <div class="number_icon">
                             <img src="./public/assets/icons/six.png" class="img-fluid" alt="one">
                            </div>
@@ -421,7 +424,7 @@
                            </div>
                           </div>
                        </div> 
-                       <div class="col-md-6 col-3  d-block d-lg-none">
+                       <div class="col-md-6 col-3  d-block d-lg-none" data-aos="zoom-in"  data-aos-delay="250">
                          <div class="user_text_section">
                            <img src="./public/assets/icons/User.png" class="img-fluid user_text" alt="user" >
                          </div>
@@ -431,8 +434,8 @@
    
                  </div>
                 </div>
-                <div class="col-md-2 col-4 d-none d-lg-block">
-                  <div class="user_text_section">
+                <div class="col-md-2 col-4 d-none d-lg-block" >
+                  <div class="user_text_section" data-aos="zoom-in" data-aos-delay="250">
                     <img src="./public/assets/icons/User.png" class="img-fluid" alt="user" >
                   </div>
                 </div>
@@ -444,7 +447,7 @@
    
                 <div class="row">
                   <div class="col-lg-2 d-none d-lg-block">
-                    <div class="driver_text_section">
+                    <div class="driver_text_section"  data-aos="zoom-in"  data-aos-delay="230">
                       <img src="./public/assets/icons/driver1.png" class="img-fluid driver_text" alt="driver">
                     </div>
                   </div>
@@ -454,7 +457,7 @@
                    <div class="col-md-8"> 
                      <div class="row">
                        <div class="col-md-3  col-3">
-                         <div class=" benifits_row_colum_driver benifits_row_colum_driver_1">
+                         <div class=" benifits_row_colum_driver benifits_row_colum_driver_1"  data-aos="zoom-in"  data-aos-delay="230">
                            <div class="number_icon">
                             <img src="./public/assets/icons/01.png" class="img-fluid" alt="one">
                            </div>
@@ -466,7 +469,7 @@
                           </div>
                        </div>
                        <div class="col-md-3  col-3">
-                         <div class="benifits_row_colum_driver_main">
+                         <div class="benifits_row_colum_driver_main"   data-aos="zoom-in" data-aos-delay="230">
                            <div class=" benifits_row_colum_driver benifits_row_colum_driver_bellow_2">
                              <div class="number_icon">
                               <b>02</b>
@@ -487,7 +490,7 @@
                          </div>
                        </div>
                        <div class="col-md-3  col-3">
-                         <div class=" benifits_row_colum_driver benifits_row_colum_driver_1">
+                         <div class=" benifits_row_colum_driver benifits_row_colum_driver_1"   data-aos="zoom-in" data-aos-delay="230">
                            <div class="number_icon">
                             <img src="./public/assets/icons/three.png" class="img-fluid" alt="one">
                            </div>
@@ -499,7 +502,7 @@
                           </div>
                        </div>
                        <div class="col-md-3  col-3">
-                         <div class=" benifits_row_colum_driver benifits_row_colum_driver_1">
+                         <div class=" benifits_row_colum_driver benifits_row_colum_driver_1"  data-aos="zoom-in"  data-aos-delay="230">
                            <div class="number_icon">
                             <img src="./public/assets/icons/four.png" class="img-fluid" alt="one">
                            </div>
@@ -517,12 +520,12 @@
                    <div class="col-md-4">
                      <div class="row">
                        <div class="col-md-6 col-3 d-block d-lg-none">
-                         <div class="driver_text_section">
+                         <div class="driver_text_section"  data-aos-delay="230">
                            <img src="./public/assets/icons/driver1.png" class="img-fluid" alt="driver">
                          </div>
                        </div>
                        <div class="col-md-6 col-3">
-                         <div class=" benifits_row_colum_driver benifits_row_colum_driver_1">
+                         <div class=" benifits_row_colum_driver benifits_row_colum_driver_1"  data-aos="zoom-in"  data-aos-delay="230">
                            <div class="number_icon">
                             <img src="./public/assets/icons/five.png" class="img-fluid" alt="one">
                            </div>
@@ -534,7 +537,7 @@
                           </div>
                        </div>
                        <div class="col-md-6 col-3">
-                         <div class=" benifits_row_colum_driver benifits_row_colum_driver_1">
+                         <div class=" benifits_row_colum_driver benifits_row_colum_driver_1"  data-aos="zoom-in" data-aos-delay="230">
                            <div class="number_icon">
                             <img src="./public/assets/icons/six.png" class="img-fluid" alt="one">
                            </div>
@@ -563,7 +566,7 @@
        </div>
     </section>
     
-    <section  id="features"  class="mie_ride_features">
+    <section  id="features"  class="mie_ride_features" data-aos="fade-up"  data-aos-delay="250">
       <div class="row p-0 m-0 w-100">
           <div class="col-md-11  mx-auto">
             <div class="row">
@@ -575,7 +578,7 @@
             </div>
              
 
-              <div class="mie_ride_features_desc w-100">
+              <div class="mie_ride_features_desc w-100" data-aos="zoom-in"  data-aos-delay="200">
                   <div class="row w-100">
                       <div class="col-md-4" >
                         <div class="row p-0 m-0">
@@ -679,7 +682,7 @@
 
 
 
-    <section  id="advertise-with-us" class="mie_ride_advertise w-100">
+    <section  id="advertise-with-us" class="mie_ride_advertise w-100" data-aos="fade-up"  data-aos-delay="280">
       <div class="w-100">
         <div class="row p-0 m-0 w-100">
           <div class="col-md-11 mx-auto">
@@ -687,7 +690,7 @@
              <h4 class="text-center text-uppercase">advertise with us</h4>
            </div>
   
-           <div class="advertise-main">
+           <div class="advertise-main" data-aos="zoom-in"  data-aos-delay="260">
            <div class="row p-0 m-0">
             <div class="col-md-7 p-0 m-0">
               <div class="row p-0 m-0">
@@ -822,18 +825,18 @@
     </section>
 
 
-    <section id="download" class="mie_ride_download w-100">
+    <section id="download" class="mie_ride_download w-100"  data-aos="fade-up"  >
       <div class="row p-0 m-0 w-100">
         <div class="col-md-9 mx-auto">
-          <div class="mie_ride_download_title">
+          <div class="mie_ride_download_title" data-aos="fade-up"  data-aos-delay="160">
             <h4 class="text-uppercase"> download now </h4>
              <p> Experience Mie Ride today! </p>  
           </div>
           <div class="main_downloals">
             <div class="row">
-              <div class="col-md-4 mx-auto">
+              <div class="col-md-4 mx-auto" data-aos="zoom-in"  data-aos-delay="160">
 
-               <div class="letf_main_download">
+               <div class="letf_main_download" >
                 <div class="card_container_left">
                   <div class="card card-back">
                       <p> Fixed Price, Every Ride </p>
@@ -871,7 +874,7 @@
                 </div>
                 
               </div>
-              <div class="col-md-4 mx-auto">
+              <div class="col-md-4 mx-auto" data-aos="zoom-in"  data-aos-delay="160">
 
                 <div class="right_main_download">
                   <div class="card_container_right">
@@ -920,7 +923,7 @@
      </section>
 
 
-     <section  id="contact-us" class="mie_ride_contact w-100">
+     <section  id="contact-us" class="mie_ride_contact w-100" data-aos="fade-up"  data-aos-delay="260">
       <div class=" p-0 m-0 w-100">
       <div class="text-center main_title_line ">
        <h4 class="text-uppercase">Contact Us</h4>
@@ -1195,7 +1198,11 @@
        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
        crossorigin="anonymous"></script>
        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-
+       
     <script src="./public/js/index.js"></script>
+    <script>
+      AOS.init();
+      AOS.refresh(); // initialize AOS animations
+    </script>
 </body>
 </html>

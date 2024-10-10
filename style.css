@@ -374,7 +374,7 @@ color: rgb(1, 1, 1);
 color: rgb(1, 1, 1);
 padding-bottom: 50px;
 margin-top: -30px;
-font-size: 14px;
+font-size: 12px;
 }
 
 
@@ -443,7 +443,7 @@ top: 35px;
 }
 .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_3 .mie_ride_service_left_3 .description{
 color: #fff;
-font-size: 14px;
+font-size: 12px;
 padding: 65px 0px;
 margin-top: -70px;
   
@@ -515,9 +515,9 @@ color: #d7d7d7;
 } 
 .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_4 .mie_ride_service_left_4 .description{
 color: #fff;
-font-size: 14px;
+font-size: 12px;
 margin-top: -100px;
-    padding: 75px 0px;
+    padding: 75px 5px;
 }
 
 .mie_ride_service .mie_ride_service_left_main  .mie_ride_service_left_main_5{
@@ -581,7 +581,7 @@ color: #6c6c6c;
 
 } .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_5 .mie_ride_service_left_5 .description{
   padding: 50px 10px;
-  font-size: 14px;
+  font-size: 12px;
   margin-top: -50px;
   color: #000;
 }
@@ -652,7 +652,7 @@ color: #d7d7d7;
 } 
 .mie_ride_service .mie_ride_service_left_main .mie_ride_service_left_main_6 .mie_ride_service_left_6 .description{
 padding: 20px 10px;
-font-size: 15px;
+font-size: 12px;
 margin-top: -10px;
 }
 
@@ -747,7 +747,7 @@ padding: 5px;
   }
 .mie_ride_service .mie_ride_service_right_main .mie_ride_service_right_main_2 .mie_ride_service_right_2  .description{
   padding: 50px 10px;
-  font-size: 14px;
+  font-size: 12px;
   margin-top: -45px;
     color: #000;
   }
@@ -824,7 +824,7 @@ padding: 20px;
   }
 .mie_ride_service .mie_ride_service_right_main .mie_ride_service_right_main_3 .mie_ride_service_right_3  .description{
     padding: 40px 10px;
-    font-size: 14px;
+    font-size: 12px;
     margin-top: -20px;
   }
   
